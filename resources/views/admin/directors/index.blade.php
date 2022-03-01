@@ -7,7 +7,7 @@
         @component('admin.components.breadcrumb')
             @slot('title') Администрация института @endslot
             @slot('parent') Главная @endslot
-            @slot('active')  &nbsp;/ управленческий аппарат @endslot
+            @slot('active') Управленческий аппарат @endslot
         @endcomponent
 
         <hr>
@@ -19,6 +19,7 @@
         <table class="table table-striped">
             <thead>
             <th>Наименование</th>
+            <th>язык</th>
             <th>Публикация</th>
             <th class="text-right">Действие</th>
             </thead>
@@ -26,6 +27,7 @@
             @forelse($directors as $director)
                 <tr>
                     <td>{{$director->title}}</td>
+                    <td>{{$director->locale}}</td>
                     <td>{{$director->published}}</td>
                     <td class="text-right">
                         <form onsubmit="if(confirm('Удалить?')){ return true }else{ return false }" action="{{route('admin.directors.destroy',
@@ -35,14 +37,14 @@
 
                             <a class="btn btn-default" href="{{route('admin.directors.edit', $director)}}"><i class="fa fa-edit"></i></a>
 
-                            <button type="submit" class="btn"><i class="fas fa-trash-alt"></i></button>
+                            <button type="submit" class="btn"><i class="fa fa-fw fa-trash"></i></button>
                         </form>
 
                     </td>
                 </tr>
             @empty
                 <tr>
-                    <td colspan="3" class="text-center"><h2>Данные отсутсвуют</h2></td>
+                    <td colspan="6" class="text-center"><h2>Данные отсутсвуют</h2></td>
                 </tr>
             @endforelse
             </tbody>

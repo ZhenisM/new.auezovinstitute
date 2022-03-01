@@ -13,18 +13,42 @@
 <label for="">Заголовок</label>
 <input type="text" class="form-control" name="title" placeholder="Заголовок новости" value="{{$inst->title ?? ""}}" required><br>
 
+<!-- <label for="">Выбрать язык поста</label>
+<select name="locale" class="form-control" required>
+                 <option value=" ">выбрать</option>
+                 <option value="ru" {{$inst->locale ?? ""}}>ru</option>
+                 <option value="kk" {{ $inst->locale ?? ""}}>kk</option>
+              </select>
+              <br> -->
+
+
+<label for="">Выбрать язык поста</label>
+<select name="locale" class="form-control" required>
+                 @if (isset($inst->id))
+                    <option value="ru" @if ($inst->locale == 'ru') selected="" @endif>ru</option>
+                    <option value="kk" @if ($inst->locale == 'kk') selected="" @endif>kk</option>
+                    <option value="en" @if ($inst->locale == 'en') selected="" @endif>en</option>
+                @else
+                    <option value="ru">ru</option>
+                    <option value="kk">kk</option>
+                    <option value="en">en</option>
+                @endif
+              </select>
+              <br>
+
 <label for="">Slug (Уникальное значение)</label>
 <input class="form-control" type="text" name="slug" placeholder="Автоматическая генерация" value="{{$inst->slug ?? ""}}" readonly=""><br>
 
 
-
-<div class="form-group">
+<div class="form-group" style="margin-left: 20px;">
     <label for="">Изображение</label>
-    <input data-preview="#preview" name="image" type="file" id="image">{{$inst->image ?? ""}}
-    <img class="col-sm-6" id="preview" src="{{ $inst ? asset('uploads/' . $inst->image_show) : ""}}">
+    <input data-preview="#preview" name="image" type="file" id="image">
+    @if(empty($inst->image_show))
+        <img style="display: none;" class="col-sm-6" id="preview" src="{{ $inst ? asset('uploads/' . $inst->image_show) : ""}}">
+    @else
+        <img style="padding-top: 30px;" class="col-sm-3" id="preview" src="{{ $inst ? asset('uploads/' . $inst->image_show) : ""}}">
+    @endif
 </div>
-
-
 
 
 <label for="">Краткое описание</label>

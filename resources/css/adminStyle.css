@@ -1,34 +1,14 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-family: 'SF-Pro-Text-Regular'; 
-}
-
-/*------- подключение шрифтов --------*/
-
-@font-face{
-	font-family: SF-Pro-Text-Regular;
-	src: url(fonts/SF-Pro-Text-Regular.otf);
-	font-weight: normal;
-}
-@font-face{
-	font-family: SF-Pro-Text-Light;
-	src: url(fonts/SF-Pro-Text-Light.otf);
-	font-weight: lighter;
-}
-/*------- подключение шрифтов --------*/
-
-
-
 
 /*-------------- nwes style begin -----------------*/
 
 .structur {
 	display: flex;
 	flex-direction: column;
+    align-items: flex-start;
 	margin: 0 auto;
 	width: 1200px;
 	padding-bottom: 60px;
+    margin-top: 160px;
 }
 .structur a:hover {
 	text-decoration: none;
@@ -53,23 +33,53 @@
 .structur__state a {
 	text-decoration: none;
 	color: #000;
-	font-size: 18px;
+}
+
+.structur__state p {
+    font-size: 24px;
+}
+
+.structur__admins__wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 450px;
+}
+
+.structur__admins__wrap .admins__link {
+    cursor: pointer;
+    width: 30%;
+    height: 100%;
+}
+
+.structur__admins__wrap .admins__link:hover {
+
 }
 
 .structur__admins {
-	width: 100%;
 	padding: 20px;
+    height: 100%;
 	border: 1px solid #ccc;
-	border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 	margin: 20px 0;
+    box-shadow: 0 0 10px -2px #999;
+    transition: all 0.3s ease-out;
 }
 
 .structur__admins:hover {
-	box-shadow: 0 10px 10px rgb(0,0,0,.25);
+	/*box-shadow: 0 10px 10px rgb(0,0,0,.25);*/
+    transform: scale(1.05);
+    transition: all 0.3s ease-in;
 }
 
 .structur__admins__men {
 	display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
 }
 
 .structur__admins__men a {
@@ -77,13 +87,21 @@
 	color: #000;
 }
 .structur__admins__men__photo {
-	margin-right: 40px;
+    height: 60%;
+    overflow: hidden;
 }
 .structur__admins__men__name {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: center;
+    text-align: center;
+    height: 30%;
+}
+
+.structur__admins__men__name__text {
+    height: 100%;
+    overflow: hidden;
 }
 
 .structur__admins__men__name__text p {
@@ -93,6 +111,13 @@
 	font-size: 18px;
 	margin-top: 20px;
 }
+
+.structur__admins__men__name__button {
+    border: 1px solid #97a5b2;
+    color: #97a5b2;
+}
+
+
 
 .structur__admins__men__name__button .button__men {
 	color: #97a5b2;
@@ -108,6 +133,23 @@
 	border: 1px solid #537af9;
 }
 
+.structur__admins__men__name__text .aphtor {
+    margin-top: -10px;
+    color: #8db2d8;
+}
+
 /*-------------- nwes style end -----------------*/
 
 
+/*-------------- admin-panel style begin -----------------*/
+.admin__panel {
+
+}
+
+.admin__panel li a {
+	font-size: 1em !important;
+	margin-left: 0 !important;
+	color: #000 !important;
+}
+
+/*-------------- admin-panel style end -----------------*/

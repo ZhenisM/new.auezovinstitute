@@ -4,26 +4,36 @@
 <div>
 	<div class="pnwes">
 		<div class="pnwes__way">
-			<a href="{{ URL::to('/') }}">Главная</a>&nbsp;/&nbsp;
-			<a>Новости</a>
+			<a href="{{ URL::to('/') }}">{{ trans('content.main') }}</a>&nbsp;/&nbsp;
+			<a>{{ trans('content.news') }}</a>
 		</div>
 		<div class="pnwes__state">
-			<a href="#"><p><i class="fas fa-folder-open"></i>&nbsp;&nbsp;Все новости</p></a>
+			<p><i class="fas fa-folder-open"></i>&nbsp;&nbsp;{{ trans('content.all_news') }}</p>
 		</div>
-		<div class="pnwes__page">
+		<div class="pnwes__page container">
+            <div class="row">
 			@foreach ($newses as $news)
-			<div class="pnwes__page__block">
-				<div class="pnwes__page__block__wrap">
-					<a href="{{ route('news.show', [ 'id' => $news->id ]) }}"><img src="{{ $news ? asset('uploads/' . $news->image_show) : ""}}"></a>
-					<div class="pnwes__page__block__text">
-						<p>{{ $news->title }}<a href="{{ route('news.show', [ 'id' => $news->id ]) }}">Читать дальше</a></p>
-					</div>
-				</div>
-				<div class="pnew__state__date">
-					<i class="far fa-calendar-alt"></i><p>&nbsp;&nbsp;{{ $news->created_at }}&nbsp;&nbsp;</p><i class="far fa-eye"></i><p>&nbsp;&nbsp;1222</p>
-				</div>
-			</div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="news__link" href="{{ route('news.show', [ 'id' => $news->id ]) }}">
+                        <div class="pnwes__page__state">
+                            <div class="pnwes__page__state__wrap">
+                                <div class="pnwes__page__state__wrap__img">
+                                    <img src="{{ $news ? asset('uploads/' . $news->image_show) : ""}}">
+                                </div>
+                                <div class="pnwes__page__state__text">
+                                    <p>{!! $news->description_short !!}</p>
+    {{--                                {{ trans('content.read_more') }}--}}
+                                </div>
+                            </div>
+                            <div class="pnew__state__date">
+                                <i class="far fa-calendar-alt"></i><p>&nbsp;&nbsp;{{ Date::parse($news->created_at)->format('j F Y г.') }}&nbsp;&nbsp;</p>
+            {{--                    <i class="far fa-eye"></i><p>&nbsp;&nbsp;1222</p>--}}
+                            </div>
+                        </div>
+                    </a>
+                </div>
 			@endforeach
+            </div>
                 <tfoot>
                 <tr colspan="3">
                     <ul class="pagination pull-right">

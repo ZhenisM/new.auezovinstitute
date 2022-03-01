@@ -1,0 +1,271 @@
+@-webkit-keyframes load {0% {width:0%;} 100% {width:100%;}}
+@keyframes load {0% {width:0%;} 100% {width:100%;}}
+.trent-slider {width:100%;position:relative;overflow:hidden;}
+.t-slide {position:absolute;left:0;right:0;bottom:0;top:0;transition:.65s;}
+.t-slide img {width:100%;height:100%;}
+.t-slider-controls {position:absolute;top:0;bottom:0;left:0;right:0;} 
+.t-slider-controls .arrow {min-height:100%;width:50px;position:relative;transition:.25s; top: 0;}
+.t-slider-controls .arrow:hover {cursor:pointer;}
+.t-slider-controls .right-arrow {float:right;} .t-slider-controls .left-arrow {float:left;}
+.t-slider-controls .arrow .arrow-container {position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);font-size:20px;}
+.t-slider-controls .arrow .arrow-container .arrow-icon {position:relative;width:42px;height:42px;color:#fafafa;border-radius:50%;}
+.t-slider-controls .arrow .arrow-container .arrow-icon i {position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+.t-slider-controls .t-load-bar {width:100%;height:5px;}
+.t-slider-controls .t-load-bar .inner-load-bar {background:rgba(200,200,200,0.65);height:100%;}
+.t-slider-controls .t-dots-container {position:absolute;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:20px;min-width:350px;}
+.t-slider-controls .t-slide-dots-wrap {height:100%;width:100%;position:relative;}
+.t-slider-controls .t-slide-dots {position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);display:table;content:"";clear:both;}
+.t-slider-controls .t-slide-dots .t-dot {background:#fafafa;width:8px;height:8px;margin:5px;float:left;border-radius:50%;transition:.65s;} 
+.t-slider-controls .t-slide-dots .t-dot.current-dot,.t-slider-controls .t-slide-dots .t-dot:hover {-webkit-transform:scale(1.65);transform:scale(1.65);cursor:pointer;}
+/*text-slider*/
+.text-slider .t-slide-content {position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);z-index:500;padding:10px 5px;color:#fafafa;width:90%;max-width:500px;background:#000;}
+.text-slider .t-slide-content p {margin-bottom:0;}
+
+
+.current-t-slide {
+    
+}
+
+.banner__img__text {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.banner__img__text h1 p{
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+.banner__img__text p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+
+/**public style**/
+
+.highlight { opacity: 1!important; }
+
+/*.container {
+  margin: 0 auto;
+  width: 1200px;
+}*/
+
+a { color: #fff; }
+
+/**main start **/
+
+
+.main_banner {
+    width: 100%;
+    z-index: 100;
+    min-width: 1200px;
+    /*margin:150px auto;*/
+}
+h1 { margin:150px auto 30px auto; text-align:center;}
+
+/*kai_banner_container start*/
+
+
+
+.kai_banner_container {
+    width: 100%;
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+}
+
+.kai_banner_container .kai_banner_body {
+    white-space: nowrap;
+    word-space: -4px;
+    letter-spacing: -6px;
+    position: relative;
+}
+
+.kai_banner_container .kai_banner_body a {
+    display: inline-block;
+    width: 100%;
+    background-position: center;
+}
+
+.kai_banner_container .kai_banner_body img { width: 100%; }
+
+.kai_banner_container .kai_banner_bottombtns {
+    position: absolute;
+    bottom: 30px;
+    z-index: 200;
+    text-align: center;
+    width: 100%;
+}
+
+.kai_banner_container .kai_banner_bottombtns span {
+    background-size: cover;
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    opacity: 0.5
+}
+
+.kai_banner_container .side_btn {
+    width: 45px;
+    height: 45px;
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 200;
+    margin: 50px;
+    visibility: hidden;
+}
+
+.kai_banner_container:hover .side_btn { visibility: visible; }
+
+.kai_banner_container .side_btn:hover {
+    border-color: rgba(0,0,0,0.2);
+    border-width: 6px;
+}
+
+.kai_banner_container .kai_banner_prevbtn {
+    left: 2.5%;
+    transform: translateY(-100%) rotate(225deg);
+}
+
+.kai_banner_container .kai_banner_nextbtn {
+    right: 2.5%;
+    transform: translateY(-100%) rotate(45deg);
+}
+
+/*kai_banner3_container start*/
+
+
+
+.kai_banner3_container {
+    width: 980px;
+    position: relative;
+    overflow: hidden;
+}
+
+.kai_banner3_container .kai_banner_body {
+    white-space: nowrap;
+    word-space: -4px;
+    letter-spacing: -6px;
+    position: relative;
+}
+
+.kai_banner3_container .kai_banner_body div {
+    display: inline-block;
+    width: 100%;
+    background-position: center;
+}
+
+.kai_banner3_container .kai_banner_body img { width: 100%; }
+
+.kai_banner3_container .kai_banner_bottombtns {
+    position: absolute;
+    bottom: 30px;
+    z-index: 200;
+    text-align: center;
+    width: 100%;
+}
+
+.kai_banner3_container .kai_banner_bottombtns span {
+    background-size: cover;
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    opacity: 0.5
+}
+
+.kai_banner3_container .side_btn {
+    width: 45px;
+    height: 45px;
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 200;
+    margin: 50px;
+}
+
+.kai_banner3_container .side_btn:hover {
+    border-color: rgba(0,0,0,0.2);
+    border-width: 6px;
+}
+
+.kai_banner3_container .kai_banner_prevbtn {
+    left: 2.5%;
+    transform: translateY(-100%) rotate(225deg);
+}
+
+.kai_banner3_container .kai_banner_nextbtn {
+    right: 2.5%;
+    transform: translateY(-100%) rotate(45deg);
+}
+
+/*kai_banner2_container start*/
+
+
+
+.kai_banner2_container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.kai_banner2_container .kai_banner_body {
+    white-space: nowrap;
+    word-space: -4px;
+    letter-spacing: -6px;
+    position: relative;
+}
+
+.kai_banner2_container .kai_banner_body a {
+    display: inline-block;
+    width: 100%;
+    background-position: center;
+}
+
+.kai_banner2_container .kai_banner_body img {
+    display: block;
+    width: 100%;
+}
+
+.kai_banner2_container .side_btn {
+    width: 45px;
+    height: 45px;
+    border-top: 4px solid #fff;
+    border-right: 4px solid #fff;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 200;
+    margin: 50px;
+}
+
+.kai_banner2_container .side_btn:hover {
+    border-color: rgba(0,0,0,0.2);
+    border-width: 6px;
+}
+
+.kai_banner2_container .kai_banner_prevbtn {
+    left: 2.5%;
+    transform: translateY(-100%) rotate(225deg);
+}
+
+.kai_banner2_container .kai_banner_nextbtn {
+    right: 2.5%;
+    transform: translateY(-100%) rotate(45deg);
+}
+
+
+/*close slider css*/
+@media screen and (min-width:768px) {.t-slider-controls .arrow:hover {background:rgba(0,0,0,0.32);}}@charset "UTF-8";
+

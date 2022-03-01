@@ -1,5 +1,4 @@
 .container_departments{
-    font-family: 'SF-Pro-Text-Regular';
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 60px;
@@ -9,14 +8,6 @@
     align-items: flex-start;
 
 }
-
-.container_departments p, .container_departments a{
-    font-family: 'SF-Pro-Text-Regular';
-
-
-}
-
-
 
 .bar{
     display: flex;
@@ -100,4 +91,8 @@
 .dep__way, .dep__way a{
     text-decoration: none;
     color: #97a5b2;
+}
+
+.departmens__link a p {
+    margin: 0;
 }

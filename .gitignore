@@ -18,4 +18,10 @@ composer.lock
 workspace.xml
 Thumbs.db
 .idea/*.xml
-public/uploads
+.idea/workspace.xml
+/public/uploads/
+/public/uploads
+.idea/laravel-plugin.xml
+.idea/symfony2.xml
+public/uploads/audio/
+public/uploads/sciences/

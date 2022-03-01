@@ -6,6 +6,8 @@ use Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider;
 
 return [
 
+    'Jenssegers\Date\DateServiceProvider',
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -43,7 +45,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -84,7 +86,7 @@ return [
     |
     */
 
-    'locale' => 'kk',
+    'locale' => 'ru',
 
     /*
     |--------------------------------------------------------------------------
@@ -97,7 +99,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'ru',
+    'fallback_locale' => 'kk',
 
     /*
     |--------------------------------------------------------------------------
@@ -164,7 +166,7 @@ return [
         Illuminate\Session\SessionServiceProvider::class,
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
-        Illuminate\View\ViewServiceProvider::class,
+        Illuminate\View\ViewServiceProvider::class,        
 
         /*
          * Package Service Providers...
@@ -178,9 +180,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-    
+
         Mcamara\LaravelLocalization\LaravelLocalizationServiceProvider::class,
-        App\Providers\ConfigServiceProviders::class
+        App\Providers\ConfigServiceProviders::class,
+        SimpleSoftwareIO\QrCode\QrCodeServiceProvider::class
 
     ],
 
@@ -231,12 +234,13 @@ return [
         'Str' => Illuminate\Support\Str::class,
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
-        'View' => Illuminate\Support\Facades\View::class,
+        'View' => Illuminate\Support\Facades\View::class,        
 
         //Our packages
         Unisharp\Ckeditor\ServiceProvider::class,
         'LaravelLocalization' => Mcamara\LaravelLocalization\Facades\LaravelLocalization::class,
-
+        'LteAdmin' => JeroenNoten\LaravelAdminLte\ServiceProvider::class,
+        'QrCode' => SimpleSoftwareIO\QrCode\Facades\QrCode::class
 
     ],
 

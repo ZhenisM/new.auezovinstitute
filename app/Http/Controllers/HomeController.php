@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Culture;
-use App\Inst;
 
 class HomeController extends Controller
 {
@@ -25,11 +23,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $aboutses = Inst::orderBy('id', 'desc')->where('published', 1)->paginate(12);
-        $cultures = Culture::orderBy('id', 'desc')->get();
-        return view('home', [
-            'aboutses' => $aboutses,
-            'cultures' => $cultures,
-        ]);
+        return view('home');
     }
 }

@@ -1,45 +1,40 @@
 <!-- @extends('layouts.app') -->
 
 @section('content')
-    <div class="news_page__way">
-        <a href="{{ URL::to('/') }}">Главная</a>&nbsp;/
-        <a href="{{ URL::to('structure/administration') }}">Административно-управленческий аппарат</a>&nbsp;/
-        <a>{{ $director->title }}</a>
-    </div>
-<div>
-    <div class="container_1">
-        <div class="director">
-            <div>
-                <div class="director__admin">
-                    <div class="director__admin__photo">
-                        <img src="{{ $director ? asset('uploads/' . $director->image_show) : ""}}" alt="">
-                    </div>
-                    <div class="director__admin__text">
-                        <h1>{{ $director->title }}</h1>
-                        <p class="aphtor">{!! $director->description_short !!}</p>
-                           
-                    </div>
-                </div>
-                <div class="social-networks_admins">
-                    <ul>
-                        <li> <a href="https://www.google.ru/" target="_blank" class="google"><i class="fa fa-google-plus"></i></a> </li>
-                        <li> <a href="https://www.vk.com/" target="_blank" class="vk"><i class="fa fa-vk"></i></a>            </li>
-                        <li><a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
-                        <li>  <a href="https://www.instagram.com/" target="_blank" class="inst"><i class="fa fa-instagram"></i></a> </li>
-                    </ul>
-                </div>
-                <div class="director__content">
-                    <div class="text_review">
-                        <p class="desc">{!!  $director->description !!}</p>
+    <div class="culrure__wrap">
+        <div class="news_page__way">
+            <a href="{{ URL::to('/') }}">{{ trans('content.main') }}</a>&nbsp;/
+            <a href="{{ URL::to('structure/administration') }}">{{ trans('header.leadership') }}</a>&nbsp;/
+        </div>
+        <div>
+            <div class="director__wrap">
+                <div class="director">
+                    <div class="director__admin">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-12 col-lg-4">
+                                    <div class="director__admin__photo">
+                                        <img src="{{ $director ? asset('uploads/' . $director->image_show) : ""}}" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-8">
+                                    <div class="director__admin__text">
+                                        <h1>{{ $director->title }}</h1>
+                                        <p class="aphtor">{!! $director->description_short !!}</p>
+                                        <div class="director__content">
+                                            <div class="text_review">
+                                                <p class="desc">{!!  $director->description !!}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div>
-    </div>
-</div>
 <script type="text/javascript">
     jQuery(".text_review").each(function(){
         var review_full = jQuery(this).html();

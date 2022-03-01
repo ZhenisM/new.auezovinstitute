@@ -13,18 +13,39 @@
 <label for="">Заголовок</label>
 <input type="text" class="form-control" name="title" placeholder="Заголовок новости" value="{{$department->title ?? ""}}" required><br>
 
+<!-- <label for="">Выбрать язык поста</label>
+<select name="locale" class="form-control" required>
+                 <option value=" ">выбрать</option>
+                 <option value="ru" {{$department->locale ?? ""}}>ru</option>
+                 <option value="kk" {{$department->locale ?? ""}}>kk</option>                                                         
+              </select>  
+              <br> -->
+
+<label for="">Выбрать язык поста</label>
+<select name="locale" class="form-control" required>
+                 @if (isset($department->id))
+                    <option value="ru" @if ($department->locale == 'ru') selected="" @endif>ru</option>
+                    <option value="kk" @if ($department->locale == 'kk') selected="" @endif>kk</option>
+                @else
+                    <option value="ru">ru</option>
+                    <option value="kk">kk</option>
+                @endif                                                    
+              </select>  
+              <br>
+
 <label for="">Slug (Уникальное значение)</label>
 <input class="form-control" type="text" name="slug" placeholder="Автоматическая генерация" value="{{$department->slug ?? ""}}" readonly=""><br>
 
 
-
-<div class="form-group">
+<div class="form-group" style="margin-left: 20px;">
     <label for="">Изображение</label>
-    <input data-preview="#preview" name="image" type="file" id="image">{{$department->image ?? ""}}
-    <img class="col-sm-6" id="preview" src="{{ $department ? asset('uploads/' . $department->image_show) : ""}}">
+    <input data-preview="#preview" name="image" type="file" id="image">
+    @if(empty($department->image_show))
+        <img style="display: none;" class="col-sm-6" id="preview" src="{{ $department ? asset('uploads/' . $department->image_show) : ""}}">
+    @else
+        <img style="padding-top: 30px;" class="col-sm-3" id="preview" src="{{ $department ? asset('uploads/' . $department->image_show) : ""}}">
+    @endif
 </div>
-
-
 
 
 <label for="">Краткое описание</label>

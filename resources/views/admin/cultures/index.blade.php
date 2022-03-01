@@ -7,7 +7,7 @@
         @component('admin.components.breadcrumb')
             @slot('title') Список страниц @endslot
             @slot('parent') Главная @endslot
-            @slot('active')  &nbsp;/ Культурное наследие @endslot
+            @slot('active') Издания и Публикации @endslot
         @endcomponent
 
         <hr>
@@ -19,6 +19,7 @@
         <table class="table table-striped">
             <thead>
             <th>Наименование</th>
+            <th>язык</th>
             <th>Публикация</th>
             <th class="text-right">Действие</th>
             </thead>
@@ -26,6 +27,7 @@
             @forelse($cultures as $culture)
                 <tr>
                     <td>{{$culture->title}}</td>
+                    <td>{{$culture->locale}}</td>
                     <td>{{$culture->published}}</td>
                     <td class="text-right">
                         <form onsubmit="if(confirm('Удалить?')){ return true }else{ return false }" action="{{route('admin.cultures.destroy',
@@ -35,14 +37,14 @@
 
                             <a class="btn btn-default" href="{{route('admin.cultures.edit', $culture)}}"><i class="fa fa-edit"></i></a>
 
-                            <button type="submit" class="btn"><i class="fas fa-trash-alt"></i></button>
+                            <button type="submit" class="btn"><i class="fa fa-fw fa-trash"></i></button>
                         </form>
 
                     </td>
                 </tr>
             @empty
                 <tr>
-                    <td colspan="3" class="text-center"><h2>Данные отсутсвуют</h2></td>
+                    <td colspan="6" class="text-center"><h2>Данные отсутсвуют</h2></td>
                 </tr>
             @endforelse
             </tbody>

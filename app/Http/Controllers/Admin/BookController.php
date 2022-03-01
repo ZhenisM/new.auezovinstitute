@@ -46,6 +46,8 @@ class BookController extends Controller
     {
 
         $image = $request->file('image');
+        $ebook = $request->file('ebook');
+        $audio = $request->file('audio');
         //Save article
         $book = Book::create($request->all());
         //Upload image and store image path in the image_show attribute.
@@ -53,6 +55,19 @@ class BookController extends Controller
         $book->image = $image->getClientOriginalName();
         $book->image_show = Storage::disk('uploads')->put('book/' . $book->id, $image);
         $book->save();
+        }
+
+        if($ebook !== null) {
+        $book->ebook = $ebook->getClientOriginalName();
+        //$book->ebook_show = Storage::disk('uploads')->put('book/' . $book->id, $ebook);
+        $book->ebook_show = Storage::disk('uploads')->putFileAs('book/'. $book ->id, $ebook, $book->ebook);
+        $book->save();
+        }
+
+        if($audio !== null) {
+            $book->audio = $audio->getClientOriginalName();
+            $book->audio_show = Storage::disk('uploads')->put('book/' . $book->id, $audio);
+            $book->save();
         }
         //Categories
         if ($request->input('categories')) :
@@ -112,7 +127,27 @@ class BookController extends Controller
         $data['image_show'] = Storage::disk('uploads')->put('book/'. $book ->id, $image);
         }
 
-        //Update article with given data.
+
+        $ebook = $request->file('ebook');
+
+        //Store image & put image path & image name in the dataset.
+        if($ebook !== null) {
+        $data['ebook'] = $ebook->getClientOriginalName();
+        $r = $ebook->getClientOriginalExtension();
+        //$data['ebook_show'] = Storage::disk('uploads')->put('book/'. $book ->id, $ebook);
+        $data['ebook_show'] = Storage::disk('uploads')->putFile('book/'. $book ->id, $ebook);
+        }
+
+        $audio = $request->file('audio');
+
+        if($audio !== null) {
+            $data['audio'] = $audio->getClientOriginalName();
+            $data['audio_show'] = Storage::disk('uploads')->put('book/'. $book ->id, $audio);
+        }
+//        Store image & put image path & image name in the dataset.
+//        Update article with given data.
+
+
         $book->update($data);
 
         //Categories.
@@ -138,5 +173,12 @@ class BookController extends Controller
         $book->delete();
 
         return redirect()->route('admin.books.index');
+    }
+
+
+
+    public function qr()
+    {
+        return view('admin.books.qr');
     }
 }

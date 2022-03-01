@@ -1,0 +1,30 @@
+<?php
+
+return [
+
+    'language' => 'English',
+    'main' => 'Main',
+    'news' => 'News',
+    'notice' => 'Notice',
+    'all_news' => 'All News',
+    'books' => 'Books',
+    'admins' => 'Administrative stuff',
+    'departmens' => 'Departments',
+    'culture' => 'Culture',
+    'read_more' => 'Read more',
+    'structure' => 'Structure',
+    'to_learn_more' => 'Learn more',
+    'all_books' => 'All books',
+    'author' => 'Author: ',
+    'official_journal' => 'Official site of journal: ',
+    'grant_funding' => 'Grant financing of MES of RK',
+    'financing_program' => 'Targeted funding program',
+    'state_tasks' => 'State tasks',
+    'altyns' => 'Golden Fund',
+    'comment' => 'Comments',
+    'book_read' => 'Read the book',
+    'education' => 'Integration of Education and Science',
+    'administration'=>'Administration',
+    'structure'=>'Structure',
+    'ethic' => 'Ethic officer',
+];

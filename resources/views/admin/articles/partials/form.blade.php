@@ -9,19 +9,42 @@
         <option value="1">Опубликовано</option>
     @endif
 </select>
-
+<br>
 <label for="">Заголовок</label>
 <input type="text" class="form-control" name="title" placeholder="Заголовок новости" value="{{$article->title ?? ""}}" required><br>
+
+<!-- label for="">Выбрать язык поста</label>
+<select name="locale" class="form-control" required>
+                 <option value=" ">выбрать</option>
+                 <option value="ru" {{$article->locale ?? ""}}>ru</option>
+                 <option value="kk" {{ $article->locale ?? ""}}>kk</option>                                                         
+              </select>   -->
+
+<label for="">Выбрать язык поста</label>
+<select name="locale" class="form-control" required>
+                 @if (isset($article->id))
+                    <option value="ru" @if ($article->locale == 'ru') selected="" @endif>ru</option>
+                    <option value="kk" @if ($article->locale == 'kk') selected="" @endif>kk</option>
+                @else
+                    <option value="ru">ru</option>
+                    <option value="kk">kk</option>
+                @endif                                                    
+              </select>  
+              <br>
 
 <label for="">Slug (Уникальное значение)</label>
 <input class="form-control" type="text" name="slug" placeholder="Автоматическая генерация" value="{{$article->slug ?? ""}}" readonly=""><br>
 
 
 
-<div class="form-group">
+<div class="form-group" style="margin-left: 20px;">
     <label for="">Изображение</label>
-    <input data-preview="#preview" name="image" type="file" id="image">{{$article->image ?? ""}}
-    <img class="col-sm-6" id="preview" src="{{ $article ? asset('uploads/' . $article->image_show) : ""}}">
+    <input data-preview="#preview" name="image" type="file" id="image">
+    @if(empty($article->image_show))
+        <img style="display: none;" class="col-sm-6" id="preview" src="{{ $article ? asset('uploads/' . $article->image_show) : ""}}">
+    @else
+        <img style="padding-top: 30px;" class="col-sm-3" id="preview" src="{{ $article ? asset('uploads/' . $article->image_show) : ""}}">
+    @endif
 </div>
 
 

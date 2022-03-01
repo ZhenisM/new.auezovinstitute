@@ -1,17 +1,5 @@
-@font-face{
-    font-family: SF-Pro-Text-Regular;
-    src: url(fonts/SF-Pro-Text-Regular.otf);
-    font-weight: normal;
-}
-@font-face{
-    font-family: SF-Pro-Text-Light;
-    src: url(fonts/SF-Pro-Text-Regular.otf);
-    font-weight: lighter;
-}
-
 
 .container_1{
-    font-family: 'SF-Pro-Text-Regular';
      max-width: 800px;
      margin: 0 auto;
      padding-bottom: 60px;
@@ -78,7 +66,10 @@
     margin-bottom: 15px;
 }
 
-
+.director__wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .director{
     display: flex;
@@ -103,14 +94,14 @@
 }
 
 .director__admin {
-    max-width: 100%;
+    width: 100%;
     display: flex;
     margin: 40px 0;
     position: relative;
 }
 
 .director__admin__photo {
-    max-width: 20%;
+    width: 20%;
 }
 .director__admin__photo img {
     width: 100%;
@@ -118,7 +109,13 @@
 }
 .director__admin__text {
     margin-left: 40px;
+    width: 75%;
 }
+
+.director__admin__text p {
+    margin: 0;
+}
+
 .director__admin__text h3{
     margin: 0;
     font-size: 2.1em;
@@ -127,4 +124,20 @@
 .director__admin__text p{
     color: #98a6b3;
     margin: 20px 0;
+    font-size: 2em;
+}
+
+.text_review p {
+    font-size: 1.6em;
+    color: #44474a;
+}
+
+.director__admin__text .aphtor {
+    margin-top: 20px;
+    color: #44474a;
+}
+
+
+.director__content .text_review .desc {
+    color: #44474a;
 }

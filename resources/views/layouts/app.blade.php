@@ -7,8 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <link rel="shortcut icon" href="../../images/footer-logo.png" type="image/png">
-{{--    <title>{{ config('app.name', 'Laravel') }}</title>--}}
+    <link rel="shortcut icon" href="../../images/auezov.png" type="image/png" style="height: 180%">
+    {{--    <title>{{ config('app.name', 'Laravel') }}</title>--}}
     <title>Институт им. М. Ауэзова</title>
 
     <!-- Scripts -->
@@ -23,16 +23,32 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+	
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(82101769, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/82101769" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+	
 </head>
 <body>
-    <div id="app">
-        @include('layouts.header')
+<div id="app">
+    @include('layouts.header')
 
 
-        <main class="py-4">
-            @yield('content')
-        </main>
-        @include('layouts.footer')
-    </div>
+    <main class="wrap__content" id="wrap__content">
+        @yield('content')
+    </main>
+    @include('layouts.footer')
+</div>
 </body>
 </html>
