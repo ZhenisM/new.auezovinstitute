@@ -20,6 +20,7 @@ html, body {
 
 body {
 	background-color: #f9f9f9 !important;
+	background: #f9f9f9 !important;
     /*background-image: url("../../public/images/baner-books.jpg");*/
 }
 /*------- подключение шрифтов --------*/
@@ -118,7 +119,26 @@ body {
     color: #d80000;
 }
 
+@media only screen and (max-width:550px){
+    /*new added*/
+    .wrap__news {
+        margin-top: 120px;
+    }
+    .header__nav {
+        flex-direction: column;
+    }
 
+    /*.header, */.header__nav {
+        align-items: start;
+    }
+
+    .header__wrap {
+        width: 100%;
+    }
+
+    /*end new added*/
+
+}
 
 /*-------------- menu style begin -----------------*/
 
@@ -299,6 +319,22 @@ body {
 	color: #00435d;
     border: none;
     text-transform: none;
+}
+@media only screen and (max-width:900px){
+/* new added*/
+/*    .menu {*/
+/*        visibility: hidden !important;*/
+/*    }*/
+       .menu li {
+           display: none;
+           margin: 0;
+       }
+        #sandwitch {
+            display: block;
+        }
+
+/* end of new added*/
+
 }
 /*-------------- menu style end -----------------*/
 
@@ -588,6 +624,20 @@ body {
     position: relative;
 }
 
+.height-max {
+	height: 100%;
+}
+
+.padding-none {
+	padding: 0;
+}
+
+.news-mini-column {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .nwes {
 	display: flex;
 	flex-direction: column;
@@ -766,6 +816,10 @@ body {
     margin-right: 2%;
 }
 
+.nwes__blog__mini .row-news-wrap {
+	width: 100%;
+}
+
 .nwes__blog__mini .new__mini-wrap:first-child .new__mini .new__mini-blog {
     height: 40% !important;
 }
@@ -813,7 +867,13 @@ body {
 	justify-content: space-between;
 }
 
-
+@media screen and (max-width:767px){
+    /*new added*/
+    .wrap__news {
+        margin-top: 120px;
+    }
+    /*end new added*/
+}
 /*-------------- nwes style end -----------------*/
 
 /*-------------- training style begin -----------------*/
@@ -1029,7 +1089,7 @@ body {
     background-color: #f9f9f9;
     min-height: calc(100vh - 190px);
     padding-bottom: 0 !important;
-    margin-top: -150px;
+    margin-top: 15px;
 }
 
 .search__wrap h2 {

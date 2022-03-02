@@ -42,13 +42,13 @@
             </div>
             <div class="nwes__blog">
                 <div class="nwes__blog__mini">
-                    <div class="container">
-                        <div class="row">
+                    <div class="container height-max">
+                        <div class="row height-max">
                     @if ($news)
                         <?php $first = 1; ?>
                         @foreach ($news as $newsValue)
                             @if($first == 1)
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 height-max">
                                         <a href="{{ route('news.show', [ 'id' => $newsValue->id ]) }}" class="new__mini-wrap">
                                             <div class="new__mini">
                                                 <div class="new__mini__img">
@@ -73,10 +73,10 @@
                                             </div>
                                         </a>
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-sm-6 padding-none news-mini-column">
                             <?php $first = 0; ?>
                             @else
-                                        <div class="row">
+                                        <div class="row row-news-wrap">
                                             <div class="col-12">
                                                 <a href="#" class="new__mini-wrap" style="display: none;"></a>
                                                 <a href="{{ route('news.show', [ 'id' => $newsValue->id ]) }}" class="new__mini-wrap">

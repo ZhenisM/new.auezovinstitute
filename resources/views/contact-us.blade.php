@@ -101,7 +101,7 @@
     }
 
     .text__contacts {
-       /* width: 25%;*/
+        width: 100%;
         padding-left: 20px;
         padding-bottom: 10px;
     }

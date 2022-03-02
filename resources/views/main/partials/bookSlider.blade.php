@@ -210,6 +210,9 @@
 
         .item__link__block__text__name h4 {
             color: #000;
+            display: block;
+            height: 20px;
+            overflow: hidden;
 
         }
 

@@ -100,7 +100,7 @@
     }
 
     .text__contacts {
-        width: 25%;
+        
     }
 
     /*.form__email input ::-webkit-input-placeholder {*/
