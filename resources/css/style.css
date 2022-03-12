@@ -198,8 +198,9 @@ body {
     -moz-border-radius: 0 0 10px 10px;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 7px 10px -5px #999;
-    /*opacity: 0.9;*/
-    height: 62px;
+    overflow: hidden;
+    /*opacity: 0.9;
+    height: 62px;*/
 }
 
 .fixed {
@@ -505,7 +506,6 @@ body {
 .search__wrap {
 	width: 1200px;
 	margin: 0 auto;
-	margin-top: 160px;
 }
 /*-------------- serch style end -----------------*/
 

@@ -58,31 +58,32 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
             <!--<a href="#home" class="active">Home</a>-->
             @foreach($rootMenus as $menu)
                 <?php
+                $menuItems = array(20, 24, 28);
+                if(!in_array($menu->id, $menuItems)) {
+
                     $childmenus = null;
                     $childmenus = Menu::all('id', 'name_' . $locale . ' as name', 'link', 'parent_id')->where('parent_id', $menu->id);
 
-                    if ($childmenus->count() > 0)
-                    {
+                    if ($childmenus->count() > 0) {
                 ?>
-
-            <div class="dropdown_m">
-                <button @if ($menu->link != null) onclick="location.href='{{$menu->link}}'" @endif class="dropbtn">{{$menu->name}}
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    @foreach($childmenus as $chm)
-                    <a href="{{$chm->link}}">{{$chm->name}}</a>
-                    @endforeach
-                </div>
-            </div>
-            <?php
-                    }else
-                    {
-            ?>
-            <a href="{{$menu->link}}">{{$menu->name}}</a>
-            <?php
+                    <div class="dropdown_m">
+                        <button @if ($menu->link != null) onclick="location.href='{{$menu->link}}'" @endif class="dropbtn">{{$menu->name}}
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            @foreach($childmenus as $chm)
+                            <a href="{{$chm->link}}">{{$chm->name}}</a>
+                            @endforeach
+                        </div>
+                    </div>
+                    <?php
+                    } else {
+                    ?>
+                    <a href="{{$menu->link}}">{{$menu->name}}</a>
+                <?php
                     }
-            ?>
+                }
+                ?>
             @endforeach
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>

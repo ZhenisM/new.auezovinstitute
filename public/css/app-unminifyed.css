@@ -32,7 +32,7 @@
     align-items: flex-start;
     width: 1200px;
     padding-bottom: 60px;
-    margin: 160px auto 0;
+    margin: 0 auto;
 }
 .structur a:hover {
     text-decoration: none;
@@ -869,7 +869,7 @@ textarea.input100 {
     padding: 20px 0;
 }
 .wrap__map_page {
-    margin-top: 160px;
+    /*margin-top: 160px;*/
 }
 .social-networks_1 {
     padding-top: 420px;
@@ -948,7 +948,7 @@ textarea.input100 {
     color: #97a5b2;
 }
 .culrure__wrap {
-    margin-top: 160px;
+    /*margin-top: 160px;*/
 }
 .news_page__way {
     margin: 0 auto;

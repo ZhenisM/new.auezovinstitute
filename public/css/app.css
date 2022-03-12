@@ -39,7 +39,6 @@
 	margin: 0 auto;
 	width: 1200px;
 	padding-bottom: 60px;
-    margin-top: 160px;
 }
 .structur a:hover {
 	text-decoration: none;
@@ -1509,7 +1508,6 @@ textarea.input100 {
 }
 
 .culrure__wrap {
-    margin-top: 160px;
 }
 
 
@@ -1639,7 +1637,6 @@ textarea.input100 {
 	flex-direction: column;
 	margin: 0 auto;
 	width: 1200px;
-    margin-top: 160px;
 }
 
 .pnwes__way {
@@ -2244,8 +2241,9 @@ body {
     background-color: #f3f3f3;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 7px 10px -5px #999;
-    /*opacity: 0.9;*/
-    height: 62px;
+    overflow: hidden;
+    /*opacity: 0.9;
+    height: 62px;*/
 }
 
 .fixed {
@@ -2546,7 +2544,6 @@ body {
 .search__wrap {
 	width: 1200px;
 	margin: 0 auto;
-	margin-top: 160px;
 }
 /*-------------- serch style end -----------------*/
 
@@ -3167,7 +3164,7 @@ body {
 }
 /*----------- Стили для отдельных страниц книг -------------*/
 .wrap__edu {
-    margin-top: 150px;
+    /*margin-top: 150px;*/
 }
 
 .section {
@@ -3223,6 +3220,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 14px;
+    min-width: 180px;
 }
 
 .topnav .icon {
@@ -3239,10 +3237,11 @@ body {
     border: none;
     outline: none;
     color: #2a5266;
-    padding: 14px 16px;
+    padding: 15px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    min-width: 200px;
 }
 
 .dropdown-content {
@@ -3250,7 +3249,7 @@ body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    max-width: 320px;
+    max-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -3265,8 +3264,9 @@ body {
 }
 
 .topnav a:hover, .dropdown_m:hover .dropbtn {
-/*    background-color: #555;
-    color: white; */
+    background-color: #555;
+    color: white;
+    text-decoration: none;
 }
 
 .dropdown-content a:hover {
@@ -3468,7 +3468,7 @@ code {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 }.wrap__project {
-    margin: 160px auto 0;
+    margin: 0 auto;
 }
 
 .project {
