@@ -185,7 +185,7 @@ body{
     background-color: #fff;
     position: absolute;
     width: 13%;
-    height: 191px;
+    height: 227px;
     padding: 20px;
     margin-top: -40px;
     -webkit-border-radius: 5px 5px 0 0;
@@ -207,6 +207,22 @@ body{
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
+}
+.row-right-links {
+    display: flex;
+}
+.row-right-links-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.row-right-links-item img {
+    width: 100px;
+}
+.row-right-links-item a {
+    
 }
 
 .social-networks ul {
@@ -239,5 +255,6 @@ body{
 .col-sm-2-mod ul li {
 
 }
+
 
 

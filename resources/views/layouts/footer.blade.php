@@ -15,11 +15,7 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
             <a href="{{ URL::to('/') }}"><img src="../../images/{{ trans('header.logo') }}"></a>
         </div>
         <div class="row container__footer__row">
-{{--            <div class="col-sm-3">--}}
-{{--                <img src="../../images/footer-logo.png" alt="">--}}
-{{--            </div>--}}
             <div class="row-right">
-                <div class="col-sm-8 col-sm-8-mod col-xs-10 col-xs-8-mod">
 {{--                    <ul>--}}
 {{--                        <li><a href="{{ URL::to('/structure/administration') }}">{{ trans('footer.leadership') }}</a></li>--}}
 {{--                        <li><a href="{{ route('departments.index') }}">{{ trans('footer.departmens') }}</a></li>--}}
@@ -52,57 +48,27 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 {{--                            </li>--}}
 {{--                        @endforeach--}}
 {{--                    </ul>--}}
-                    <div class="container">
-                        <div class="row row-jc-end">
-                            <div class="col-sm-3 col-xs-7">
-                                <img class="res-img" src="../../images/gerb-tmb.png" alt=""><br />
-                                <a href="http://sc.edu.gov.kz/">{{ trans('footer.scientifickometee') }}</a>
-                            </div>
-                            <div class="col-sm-3 col-xs-7">
-                                <img class="res-img" src="../../images/auezovmuseium-tmb.jpg" alt=""><br />
-                                <a href="/ru/museums/1">{{ trans('footer.museium') }}</a>
-                            </div>
-                            <div class="col-sm-3 col-xs-7">
-                                <img class="res-img" src="../../images/keruen-tmb.jpg" alt=""><br />
-                                <a href="/ru/keruens/1">{{ trans('footer.keruen') }}</a>
-                            </div>
-                        </div>
-                    </div>
-{{--                    <ul>--}}
-{{--                        <li>--}}
-{{--                            <img src="../../images/gerb-tmb.png" alt="">--}}
-{{--                            <a href="http://sc.edu.gov.kz/">{{ trans('footer.scientifickometee') }}</a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <img src="../../images/auezovmuseium-tmb.jpg" alt="">--}}
-{{--                            <a href="#">{{ trans('footer.museium') }}</a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <img src="../../images/keruen-tmb.jpg" alt="">--}}
-{{--                            <a href="#">{{ trans('footer.keruen') }}</a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
 
-                </div>
-{{--                <div class="col-sm-3 col-sm-3-mod">--}}
-{{--                    <ul>--}}
-{{--                        --}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-{{--                <div class="col-sm-2">--}}
-{{--                    <ul>--}}
-{{--                        <li><a href="{{ URL::to('/footer/international') }}">Международные связи</a></li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-                <div class="col-sm-2 col-sm-2-mod col-xs-2">
-                    <div class="social-networks">
-                        <ul>
-{{--                            <li> <a href="https://www.google.ru/" target="_blank" class="google"><i class="fa fa-google-plus"></i></a> </li>--}}
-                            <li><a href="https://www.facebook.com/auezovinstitute/?ref=bookmarks" target="_blank" class="facebook"><i class="fab fa-facebook-square"></i></a></li>
-                            <li>  <a href="https://www.instagram.com/auezovlitart/" target="_blank" class="inst"><i class="fa fa-instagram"></i></a> </li>
-                            <li> <a href="https://www.youtube.com/channel/UC9JHx3xUONV6inEUzbjUjAQ " target="_blank" class="vk"><i class="fab fa-youtube"></i></a>            </li>
-                        </ul>
+                <div class="row-right-links">
+                    <div class="row-right-links-item">
+                        <img class="res-img" src="../../images/gerb-tmb.png" alt="">
+                        <a href="http://sc.edu.gov.kz/">{{ trans('footer.scientifickometee') }}</a>
                     </div>
+                    <div class="row-right-links-item">
+                        <img class="res-img" src="../../images/auezovmuseium-tmb.jpg" alt="">
+                        <a href="/ru/museums/1">{{ trans('footer.museium') }}</a>
+                    </div>
+                    <div class="row-right-links-item">
+                        <img class="res-img" src="../../images/keruen-tmb.jpg" alt="">
+                        <a href="/ru/keruens/1">{{ trans('footer.keruen') }}</a>
+                    </div>
+                </div>
+                <div class="social-networks">
+                    <ul>
+                        <li><a href="https://www.facebook.com/auezovinstitute/?ref=bookmarks" target="_blank" class="facebook"><i class="fab fa-facebook-square"></i></a></li>
+                        <li>  <a href="https://www.instagram.com/auezovlitart/" target="_blank" class="inst"><i class="fa fa-instagram"></i></a> </li>
+                        <li> <a href="https://www.youtube.com/channel/UC9JHx3xUONV6inEUzbjUjAQ " target="_blank" class="vk"><i class="fab fa-youtube"></i></a>            </li>
+                    </ul>
                 </div>
             </div>
         </div>

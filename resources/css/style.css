@@ -202,6 +202,11 @@ body {
     /*opacity: 0.9;
     height: 62px;*/
 }
+@media (max-width:1199px) {
+	.header__menu {
+		width: 100%;
+	}
+}
 
 .fixed {
     position: fixed;
@@ -888,7 +893,7 @@ body {
 }
 .education {
 	margin: 0 auto;
-	width: 1200px;
+	max-width: 1200px;
 }
 .education p {
 	margin-bottom: 0;
@@ -944,6 +949,7 @@ body {
 
 .education__icons{
 	display: flex;
+	flex-wrap: wrap;
     justify-content: space-between;
 	width: 100%;
     margin: 20px 0 40px;
@@ -952,13 +958,14 @@ body {
 	font-size: 1em;
 }
 .education__icons__blog {
-	width: 16%;
+	width: 192px;
 	padding: 10px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
     align-items: center;
     height: 250px;
+    margin: 0 4px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;

@@ -143,62 +143,58 @@
                 <p>Мы предлагаем вам уникальную возможность получить академическую степень, сочетающую в себе научные традиции и современные стандарты образования, по специальностям Магистратуры и Докторантуры PhD:</p>
             </div>
             <div class="education__icons">
-                <div class="container">
-                    <div class="row">
-                        <div class="education__icons__blog hidden-xs col-sm-6 col-md-4 col-lg-2">
-                            <div class="eicon">
-                                <img src="../../images/Group1.png">
-                            </div>
-                            <div class="etext">
-                                <p>Современная литература Казахстана</p>
-                                <p>6M021401</p>
-                            </div>
-                        </div>
-                        <div class="education__icons__blog hidden-xs col-sm-6 col-md-4 col-lg-2">
-                            <div class="eicon">
-                                <img src="../../images/Group5.png">
-                            </div>
-                            <div class="etext">
-                                <p>Теория и литературная критика</p>
-                                <p>6D021401</p>
-                            </div>
-                        </div>
-                        <div class="education__icons__blog hidden-xs col-sm-6 col-md-4 col-lg-2">
-                            <div class="eicon">
-                                <img src="../../images/Group3.png">
-                            </div>
-                            <div class="etext">
-                                <p>Текстология</p>
-                                <p>6M021402</p>
-                            </div>
-                        </div>
-                        <div class="education__icons__blog hidden-xs col-sm-6 col-md-4 col-lg-2">
-                            <div class="eicon">
-                                <img src="../../images/Group4.png">
-                            </div>
-                            <div class="etext">
-                                <p>Казахский фольклор и древняя литература</p>
-                                <p>6D021402</p>
-                            </div>
-                        </div>
-                        <div class="education__icons__blog hidden-xs col-sm-6 col-md-4 col-lg-2">
-                            <div class="eicon">
-                                <img src="../../images/Group5.png">
-                            </div>
-                            <div class="etext">
-                                <p>Фольклористика</p>
-                                <p>6M021403</p>
-                            </div>
-                        </div>
-                        <div class="education__icons__blog hidden-xs col-sm-6 col-md-4 col-lg-2">
-                            <div class="eicon">
-                                <img src="../../images/Group6.png">
-                            </div>
-                            <div class="etext">
-                                <p>Литературоведение</p>
-                                <p>6D021403</p>
-                            </div>
-                        </div>
+                <div class="education__icons__blog">
+                    <div class="eicon">
+                        <img src="../../images/Group1.png">
+                    </div>
+                    <div class="etext">
+                        <p>Современная литература Казахстана</p>
+                        <p>6M021401</p>
+                    </div>
+                </div>
+                <div class="education__icons__blog">
+                    <div class="eicon">
+                        <img src="../../images/Group5.png">
+                    </div>
+                    <div class="etext">
+                        <p>Теория и литературная критика</p>
+                        <p>6D021401</p>
+                    </div>
+                </div>
+                <div class="education__icons__blog">
+                    <div class="eicon">
+                        <img src="../../images/Group3.png">
+                    </div>
+                    <div class="etext">
+                        <p>Текстология</p>
+                        <p>6M021402</p>
+                    </div>
+                </div>
+                <div class="education__icons__blog">
+                    <div class="eicon">
+                        <img src="../../images/Group4.png">
+                    </div>
+                    <div class="etext">
+                        <p>Казахский фольклор и древняя литература</p>
+                        <p>6D021402</p>
+                    </div>
+                </div>
+                <div class="education__icons__blog">
+                    <div class="eicon">
+                        <img src="../../images/Group5.png">
+                    </div>
+                    <div class="etext">
+                        <p>Фольклористика</p>
+                        <p>6M021403</p>
+                    </div>
+                </div>
+                <div class="education__icons__blog">
+                    <div class="eicon">
+                        <img src="../../images/Group6.png">
+                    </div>
+                    <div class="etext">
+                        <p>Литературоведение</p>
+                        <p>6D021403</p>
                     </div>
                 </div>
             </div>

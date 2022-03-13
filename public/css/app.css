@@ -609,7 +609,7 @@ body{
     background-color: #fff;
     position: absolute;
     width: 13%;
-    height: 191px;
+    height: 227px;
     padding: 20px;
     margin-top: -40px;
     border-radius: 5px 5px 0 0;
@@ -629,6 +629,22 @@ body{
     display: flex;
     justify-content: flex-end;
     margin: 0 auto;
+}
+.row-right-links {
+    display: flex;
+}
+.row-right-links-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.row-right-links-item img {
+    width: 100px;
+}
+.row-right-links-item a {
+    
 }
 
 .social-networks ul {
@@ -661,6 +677,7 @@ body{
 .col-sm-2-mod ul li {
 
 }
+
 
 
 
@@ -2245,6 +2262,11 @@ body {
     /*opacity: 0.9;
     height: 62px;*/
 }
+@media (max-width:1199px) {
+	.header__menu {
+		width: 100%;
+	}
+}
 
 .fixed {
     position: fixed;
@@ -2923,7 +2945,7 @@ body {
 }
 .education {
 	margin: 0 auto;
-	width: 1200px;
+	max-width: 1200px;
 }
 .education p {
 	margin-bottom: 0;
@@ -2979,6 +3001,7 @@ body {
 
 .education__icons{
 	display: flex;
+	flex-wrap: wrap;
     justify-content: space-between;
 	width: 100%;
     margin: 20px 0 40px;
@@ -2987,13 +3010,14 @@ body {
 	font-size: 1em;
 }
 .education__icons__blog {
-	width: 16%;
+	width: 192px;
 	padding: 10px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
     align-items: center;
     height: 250px;
+    margin: 0 4px;
     border-radius: 5px;
     box-shadow: 0 0 10px -6px #1a5972;
 }
