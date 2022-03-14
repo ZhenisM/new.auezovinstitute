@@ -15,26 +15,24 @@
                 <div class="map">
                     <div>
                         <div class="info">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-4">
-                                        <ul>
-                                            <li><p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Адрес:</p></li>
-                                            <li><p>050010, г.Алматы, ул. Курмангазы, 29, 2 этаж.</p></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-12 col-md-4">
-                                        <ul>
-                                            <li><p><i class="fas fa-phone"></i>&nbsp;Контактный телефон:</p></li>
-                                            <li><p>(727) 272 74 11</p></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-12 col-md-4">
-                                        <ul>
-                                            <li><p><i class="fas fa-envelope-open"></i>&nbsp;e-mail:</p></li>
-                                            <li><p>info@litart.kz</p></li>
-                                        </ul>
-                                    </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-4">
+                                    <ul>
+                                        <li><p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Адрес:</p></li>
+                                        <li><p>050010, г.Алматы, ул. Курмангазы, 29, 2 этаж.</p></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <ul>
+                                        <li><p><i class="fas fa-phone"></i>&nbsp;Контактный телефон:</p></li>
+                                        <li><p>(727) 272 74 11</p></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-12 col-md-4">
+                                    <ul>
+                                        <li><p><i class="fas fa-envelope-open"></i>&nbsp;e-mail:</p></li>
+                                        <li><p>info@litart.kz</p></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

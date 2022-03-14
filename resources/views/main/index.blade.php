@@ -42,17 +42,44 @@
             </div>
             <div class="nwes__blog">
                 <div class="nwes__blog__mini">
-                    <div class="container height-max">
-                        <div class="row height-max">
+                    <div class="nwes-blog-cards">
                     @if ($news)
                         <?php $first = 1; ?>
                         @foreach ($news as $newsValue)
                             @if($first == 1)
-                                        <div class="col-sm-6 height-max">
+                                <div class="nwes-blog-cards-item">
+                                    <a href="{{ route('news.show', [ 'id' => $newsValue->id ]) }}" class="new__mini-wrap">
+                                        <div class="new__mini">
+                                            <div class="new__mini__img">
+                                                <img src="{{ $newsValue ? asset('uploads/' . $newsValue->image_show) : ""}}">
+                                            </div>
+                                            <div class="new__mini-blog">
+                                                <div class="new__state">
+                                                    {{--                                        <div class="new__state__text">--}}
+                                                    {{--                                            <p>{{ $newsValue->title }}</p>--}}
+                                                    {{--                                        </div>--}}
+                                                    <div class="new__state__text">
+                                                        <h4>{{$newsValue->title}}</h4>
+                                                        <p>{!! $newsValue->description_short !!}</p>
+                                                        {{--                                            <a href="{{ route('news.show', [ 'id' => $newsValue->id ]) }}">Читать дальше</a>--}}
+                                                    </div>
+                                                </div>
+                                                <div class="new__state__date">
+                                                    <div class="new__state__date__wrap"><i class="far fa-calendar-check"></i><p>&nbsp;&nbsp;{{ Date::parse($newsValue->created_at)->format('j F Y г.') }}&nbsp;&nbsp;</p></div>
+                                                    {{--                                            <div class="new__state__date__wrap"><i class="far fa-eye"></i><p>&nbsp;&nbsp;1222</p></div>--}}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="nwes-blog-cards-item nwes-blog-cards-item-right padding-none news-mini-column">
+                            <?php $first = 0; ?>
+                            @else
+                                    <div class="nwes-blog-cards-item-wrap">
                                         <a href="{{ route('news.show', [ 'id' => $newsValue->id ]) }}" class="new__mini-wrap">
-                                            <div class="new__mini">
+                                            <div class="new__mini-right">
                                                 <div class="new__mini__img">
-                                                    <img src="{{ $newsValue ? asset('uploads/' . $newsValue->image_show) : ""}}">
+                                                    <img src="{{ $newsValue ? asset('uploads/' . $newsValue->image_show) : ''}}">
                                                 </div>
                                                 <div class="new__mini-blog">
                                                     <div class="new__state">
@@ -72,44 +99,11 @@
                                                 </div>
                                             </div>
                                         </a>
-                                        </div>
-                                        <div class="col-sm-6 padding-none news-mini-column">
-                            <?php $first = 0; ?>
-                            @else
-                                        <div class="row row-news-wrap">
-                                            <div class="col-12">
-                                                <a href="#" class="new__mini-wrap" style="display: none;"></a>
-                                                <a href="{{ route('news.show', [ 'id' => $newsValue->id ]) }}" class="new__mini-wrap">
-                                                    <div class="new__mini">
-                                                        <div class="new__mini__img">
-                                                            <img src="{{ $newsValue ? asset('uploads/' . $newsValue->image_show) : ""}}">
-                                                        </div>
-                                                        <div class="new__mini-blog">
-                                                            <div class="new__state">
-                                                                {{--                                        <div class="new__state__text">--}}
-                                                                {{--                                            <p>{{ $newsValue->title }}</p>--}}
-                                                                {{--                                        </div>--}}
-                                                                <div class="new__state__text">
-                                                                    <h4>{{$newsValue->title}}</h4>
-                                                                    <p>{!! $newsValue->description_short !!}</p>
-                                                                    {{--                                            <a href="{{ route('news.show', [ 'id' => $newsValue->id ]) }}">Читать дальше</a>--}}
-                                                                </div>
-                                                            </div>
-                                                            <div class="new__state__date">
-                                                                <div class="new__state__date__wrap"><i class="far fa-calendar-check"></i><p>&nbsp;&nbsp;{{ Date::parse($newsValue->created_at)->format('j F Y г.') }}&nbsp;&nbsp;</p></div>
-                                                                {{--                                            <div class="new__state__date__wrap"><i class="far fa-eye"></i><p>&nbsp;&nbsp;1222</p></div>--}}
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-
+                                    </div>
                             @endif
                         @endforeach
-                                        </div>
+                                </div>
                     @endif
-                        </div>
                     </div>
                 </div>
             </div>

@@ -11,10 +11,17 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <style>
+    .container__contacts {
+        max-width: 1200px;
+        width: 100%;
+    }
     .wrap__contact {
         max-width: 1200px;
         display: flex;
         margin: 40px 0;
+    }
+    .contact {
+        width: 100%;
     }
 
     .wrap__contact form {
@@ -102,8 +109,8 @@
 
     .text__contacts {
         width: 100%;
-        padding-left: 20px;
-        padding-bottom: 10px;
+        padding: 20px;
+        text-align: center;
     }
 
     /*.form__email input ::-webkit-input-placeholder {*/
@@ -139,68 +146,64 @@
             {{ session('warning') }}
         </div>
     @endif
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-3">
-                    <div class="text__contacts">
-                        <p>{{ trans('main.write_to_us_text') }}</p>
-                        <p>{{ trans('main.write_to_us_text2') }}</p>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-8 col-lg-9">
-                    <form method="post" action="{{ route('contactus.store') }}">
-                        {{ csrf_field() }}
-                        <div class="row form__contacts">
-                            <div class="col-md-12">
-                                <div class="form-group form__email {{ $errors->has('name') ? ' has-error' : '' }}">
-                                    <i class="far fa-user"></i>
-                                    <input type="text" name="name" class="form__imput" placeholder="{{ trans('main.name') }}"  required />
-                                    @if ($errors->has('name'))
-                                        <span class="help-block">
-                            <strong>{{ $errors->first('name') }}</strong>
-                        </span>
-                                    @endif
-                                </div>
-                                <div class="form-group form__email {{ $errors->has('email') ? ' has-error' : '' }}">
-                                    <i class="far fa-envelope"></i>
-                                    <input type="email" name="email" class="form__imput" placeholder="Email"  required />
-                                    @if ($errors->has('email'))
-                                        <span class="help-block">
-                            <strong>{{ $errors->first('email') }}</strong>
-                        </span>
-                                    @endif
-                                </div>
-                                <div class="form-group form__email {{ $errors->has('subject') ? ' has-error' : '' }}">
-                                    <i class="far fa-sticky-note"></i>
-                                    <input type="text" name="subject" class="form__imput" placeholder="{{ trans('main.theme') }}"  />
-                                    @if ($errors->has('subject'))
-                                        <span class="help-block">
-                            <strong>{{ $errors->first('subject') }}</strong>
-                        </span>
-                                    @endif
-                                </div>
-                            </div>
-                            <div class="col-md-12 form__text">
-                                <i class="far fa-comment-alt textera_icon"></i>
-                                <div class="form-group form__message {{ $errors->has('message') ? ' has-error' : '' }}">
-                                    <textarea name="message" class="form__imput" placeholder="{{ trans('main.your_message') }}" style="width: 100%; height: 150px;" required></textarea>
-                                    @if ($errors->has('message'))
-                                        <span class="help-block">
-                            <strong>{{ $errors->first('message') }}</strong>
-                        </span>
-                                    @endif
-                                </div>
-                            </div>
-                            <div class="form-group form__button">
-                                <input type="submit" name="btnSubmit" class="btn btn-primary btn-round btn-sm" value="{{ trans('main.to_send') }}" />
-                            </div>
-                        </div>
-                    </form>
-                </div>
+    <div class="contact">
+        <div class="contact-left">
+            <div class="text__contacts">
+                <p>{{ trans('main.write_to_us_text') }}</p>
+                <p>{{ trans('main.write_to_us_text2') }}</p>
             </div>
         </div>
-
-
+        <div class="contact-right">
+            <form method="post" action="{{ route('contactus.store') }}">
+                {{ csrf_field() }}
+                <div class="row form__contacts">
+                    <div class="col-md-12">
+                        <div class="form-group form__email {{ $errors->has('name') ? ' has-error' : '' }}">
+                            <i class="far fa-user"></i>
+                            <input type="text" name="name" class="form__imput" placeholder="{{ trans('main.name') }}"  required />
+                            @if ($errors->has('name'))
+                                <span class="help-block">
+                    <strong>{{ $errors->first('name') }}</strong>
+                </span>
+                            @endif
+                        </div>
+                        <div class="form-group form__email {{ $errors->has('email') ? ' has-error' : '' }}">
+                            <i class="far fa-envelope"></i>
+                            <input type="email" name="email" class="form__imput" placeholder="Email"  required />
+                            @if ($errors->has('email'))
+                                <span class="help-block">
+                    <strong>{{ $errors->first('email') }}</strong>
+                </span>
+                            @endif
+                        </div>
+                        <div class="form-group form__email {{ $errors->has('subject') ? ' has-error' : '' }}">
+                            <i class="far fa-sticky-note"></i>
+                            <input type="text" name="subject" class="form__imput" placeholder="{{ trans('main.theme') }}"  />
+                            @if ($errors->has('subject'))
+                                <span class="help-block">
+                    <strong>{{ $errors->first('subject') }}</strong>
+                </span>
+                            @endif
+                        </div>
+                    </div>
+                    <div class="col-md-12 form__text">
+                        <i class="far fa-comment-alt textera_icon"></i>
+                        <div class="form-group form__message {{ $errors->has('message') ? ' has-error' : '' }}">
+                            <textarea name="message" class="form__imput" placeholder="{{ trans('main.your_message') }}" style="width: 100%; height: 150px;" required></textarea>
+                            @if ($errors->has('message'))
+                                <span class="help-block">
+                    <strong>{{ $errors->first('message') }}</strong>
+                </span>
+                            @endif
+                        </div>
+                    </div>
+                    <div class="form-group form__button">
+                        <input type="submit" name="btnSubmit" class="btn btn-primary btn-round btn-sm" value="{{ trans('main.to_send') }}" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
 </body>
 </html>
