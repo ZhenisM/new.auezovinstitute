@@ -26,55 +26,40 @@
                         Директор Ғылыми кеңестің шешімімен келіспеген жағдайда мәселе мемлекеттік басқару органының қарауына беріледі.<br/>
                         <br>
                         <div style="text-align: center;"><h3>Ғылыми кеңес мүшелері</h3></div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/Matyzhanov.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>МАТЫЖАНОВ Кенжехан Ісләмжанұлы (төраға)</p>
-                                                </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/Matyzhanov.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>МАТЫЖАНОВ Кенжехан Ісләмжанұлы (төраға)</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                        <div class="structur__admins">
-                                            <div class="structur__admins__men">
-                                                <div class="structur__admins__men__photo">
-                                                    <img src="{{ asset('images/stuff/Almira.jpg')}}">
-                                                </div>
-                                                <div class="structur__admins__men__name">
-                                                    <div class="structur__admins__men__name__text">
-                                                        <p>ҚАЛИЕВА Альмира Қайыртайқызы (төраға орынбасары)</p>
-                                                    </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                    <div class="structur__admins">
+                                        <div class="structur__admins__men">
+                                            <div class="structur__admins__men__photo">
+                                                <img src="{{ asset('images/stuff/Almira.jpg')}}">
+                                            </div>
+                                            <div class="structur__admins__men__name">
+                                                <div class="structur__admins__men__name__text">
+                                                    <p>ҚАЛИЕВА Альмира Қайыртайқызы (төраға орынбасары)</p>
                                                 </div>
                                             </div>
                                         </div>
-                                </div>
+                                    </div>
+                            </div>
 
 
 
 
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                        <div class="structur__admins">
-                                            <div class="structur__admins__men">
-                                                <div class="structur__admins__men__photo">
-                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                </div>
-                                                <div class="structur__admins__men__name">
-                                                    <div class="structur__admins__men__name__text">
-                                                        <p>АКЫШ Нұрдәулет Бабиханұлы</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
+                            <div class="col-sm-12 col-md-4 mt-5">
                                     <div class="structur__admins">
                                         <div class="structur__admins__men">
                                             <div class="structur__admins__men__photo">
@@ -82,260 +67,273 @@
                                             </div>
                                             <div class="structur__admins__men__name">
                                                 <div class="structur__admins__men__name__text">
-                                                    <p>АНАНЬЕВА Светлана Викторовна</p>
+                                                    <p>АКЫШ Нұрдәулет Бабиханұлы</p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ӘЗІБАЕВА Бақытжан Уәлиқызы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>АНАНЬЕВА Светлана Викторовна</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ЕЛЕУКЕНОВ Шериаздан Рүстемұлы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ӘЗІБАЕВА Бақытжан Уәлиқызы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/IsimaqovaAigul.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ІСІМАҚОВА Айгүл Серікқызы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ЕЛЕУКЕНОВ Шериаздан Рүстемұлы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/KenzhequlovaAinur.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>КЕНЖЕҚҰЛОВА Айнұр Берікқызы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/IsimaqovaAigul.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ІСІМАҚОВА Айгүл Серікқызы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/QaztuganovaAinur.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ҚАЗТУҒАНОВА Айнұр Жасанбергенқызы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/KenzhequlovaAinur.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>КЕНЖЕҚҰЛОВА Айнұр Берікқызы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ҚАЛИЖАНОВ Уәлихан Қалижанұлы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/QaztuganovaAinur.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ҚАЗТУҒАНОВА Айнұр Жасанбергенқызы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ҚИРАБАЕВ Серік Смайылұлы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ҚАЛИЖАНОВ Уәлихан Қалижанұлы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/QonayevDiyar.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ҚОНАЕВ Диар Асқарұлы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ҚИРАБАЕВ Серік Смайылұлы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ҚОРАБАЙ Серікқазы Сыбанбайұлы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/QonayevDiyar.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ҚОНАЕВ Диар Асқарұлы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/QydyrTorali.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ҚЫДЫР Төрәлі Еділбайұлы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ҚОРАБАЙ Серікқазы Сыбанбайұлы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/MuqanAmangeldi.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>МҰҚАН Амангелді Оразбайұлы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/QydyrTorali.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ҚЫДЫР Төрәлі Еділбайұлы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/OrdaGulzhahan.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ОРДА Гүлжаһан Жұмабердіқызы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/MuqanAmangeldi.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>МҰҚАН Амангелді Оразбайұлы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/PiraliGulziya.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ПІРӘЛІ Гүлзия Жайлауқызы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/OrdaGulzhahan.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ОРДА Гүлжаһан Жұмабердіқызы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/RaqyshZhumashai.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>РАҚЫШ Жұмашай Сайлауқызы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/PiraliGulziya.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ПІРӘЛІ Гүлзия Жайлауқызы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/Yertai.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>СУЛТАН Ертай</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/RaqyshZhumashai.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>РАҚЫШ Жұмашай Сайлауқызы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('images/stuff/SaulembekGulmira.jpg')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>СӘУЛЕМБЕК Гүлмира Рзаханқызы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/Yertai.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>СУЛТАН Ертай</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                            </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ШАРИПОВА Диляра Сапарғалиқызы</p>
-                                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('images/stuff/SaulembekGulmira.jpg')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>СӘУЛЕМБЕК Гүлмира Рзаханқызы</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-4 mt-5 mb-5">
-                                    <div class="structur__admins">
-                                        <div class="structur__admins__men">
-                                            <div class="structur__admins__men__photo">
-                                                <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ШАРИПОВА Диляра Сапарғалиқызы</p>
                                             </div>
-                                            <div class="structur__admins__men__name">
-                                                <div class="structur__admins__men__name__text">
-                                                    <p>ХАМРАЕВ Алимжан Тиликович</p>
-                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4 mt-5 mb-5">
+                                <div class="structur__admins">
+                                    <div class="structur__admins__men">
+                                        <div class="structur__admins__men__photo">
+                                            <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                        </div>
+                                        <div class="structur__admins__men__name">
+                                            <div class="structur__admins__men__name__text">
+                                                <p>ХАМРАЕВ Алимжан Тиликович</p>
                                             </div>
                                         </div>
                                     </div>
@@ -394,316 +392,314 @@
 
                                 <div style="text-align: center;"><h3>Члены Ученого совета</h3></div>
 
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/Matyzhanov.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>МАТЫЖАНОВ Кенжехан Ислямжанович(председатель)</p>
-                                                        </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/Matyzhanov.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>МАТЫЖАНОВ Кенжехан Ислямжанович(председатель)</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/Almira.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>КАЛИЕВА Альмира Каиртаевна (заместитель председателя)</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/Almira.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>КАЛИЕВА Альмира Каиртаевна (заместитель председателя)</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
 
 
 
 
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>АКЫШ Нурдаулет Бабиханович</p>
-                                                        </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>АКЫШ Нурдаулет Бабиханович</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>АНАНЬЕВА Светлана Викторовна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>АНАНЬЕВА Светлана Викторовна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>АЗИБАЕВА Бахытжан Уалиевна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>АЗИБАЕВА Бахытжан Уалиевна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ЕЛЕУКЕНОВ Шериаздан Рустемович</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ЕЛЕУКЕНОВ Шериаздан Рустемович</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/IsimaqovaAigul.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ИСМАКОВА Айгуль Сериковна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/IsimaqovaAigul.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ИСМАКОВА Айгуль Сериковна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/KenzhequlovaAinur.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>КЕНДЖАКУЛОВА Айнур Бериковна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/KenzhequlovaAinur.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>КЕНДЖАКУЛОВА Айнур Бериковна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/QaztuganovaAinur.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>КАЗТУГАНОВА Айнур Жасанбергеновна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/QaztuganovaAinur.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>КАЗТУГАНОВА Айнур Жасанбергеновна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>КАЛИЖАНОВ Уалихан Калижанович</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>КАЛИЖАНОВ Уалихан Калижанович</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>КИРАБАЕВ Серик Смаилович</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>КИРАБАЕВ Серик Смаилович</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/QonayevDiyar.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>КОНАЕВ Диар Аскарович</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/QonayevDiyar.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>КОНАЕВ Диар Аскарович</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>КОРАБАЙ Серікқазы Сыбанбайулы</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>КОРАБАЙ Серікқазы Сыбанбайулы</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/QydyrTorali.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>КЫДЫР Торали Едилбайулы</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/QydyrTorali.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>КЫДЫР Торали Едилбайулы</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/MuqanAmangeldi.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>МУКАН Амангелды Оразбайулы</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/MuqanAmangeldi.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>МУКАН Амангелды Оразбайулы</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/OrdaGulzhahan.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ОРДА Гульжахан Жумабердиевна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/OrdaGulzhahan.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ОРДА Гульжахан Жумабердиевна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/PiraliGulziya.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ПРАЛИ Гульзия Жайлауовна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/PiraliGulziya.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ПРАЛИ Гульзия Жайлауовна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/RaqyshZhumashai.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>РАКЫШ Жумашай Сайлауовна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/RaqyshZhumashai.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>РАКЫШ Жумашай Сайлауовна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/Yertai.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>СУЛТАН Ертай</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/Yertai.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>СУЛТАН Ертай</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/SaulembekGulmira.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>САУЛЕМБЕК Гульмира Рзахановна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/SaulembekGulmira.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>САУЛЕМБЕК Гульмира Рзахановна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ШАРИПОВА Диляра Сапаргалиевна</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ШАРИПОВА Диляра Сапаргалиевна</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5 mb-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ХАМРАЕВ Алимжан Тиликович</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5 mb-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ХАМРАЕВ Алимжан Тиликович</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -762,316 +758,314 @@
                                 <div style="text-align: center;"><h3>Members of the Academic Council</h3></div>
 
 
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/Matyzhanov.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>MATYZHANOV Kenzhekhan Islyamzhanuly (chairman)</p>
-                                                        </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/Matyzhanov.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>MATYZHANOV Kenzhekhan Islyamzhanuly (chairman)</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/Almira.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>KALIEVA Almira Kairtaevna (Deputy Chairman)</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/Almira.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>KALIEVA Almira Kairtaevna (Deputy Chairman)</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
 
 
 
 
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>AKYSH Nurdaulet Babikhanovich</p>
-                                                        </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>AKYSH Nurdaulet Babikhanovich</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ANANIEVA Svetlana Viktorovna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ANANIEVA Svetlana Viktorovna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>AZIBAEVA Bakhytzhan Ualievna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>AZIBAEVA Bakhytzhan Ualievna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ELEUKENOV Sheriazdan Rustemovich</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ELEUKENOV Sheriazdan Rustemovich</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/IsimaqovaAigul.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ISMAKOVA Aigul Serikovna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/IsimaqovaAigul.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ISMAKOVA Aigul Serikovna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/KenzhequlovaAinur.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>KENJAKULOVA Ainur Berikovna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/KenzhequlovaAinur.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>KENJAKULOVA Ainur Berikovna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/QaztuganovaAinur.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>KAZTUGANOVA Ainur Zhasanbergenovna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/QaztuganovaAinur.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>KAZTUGANOVA Ainur Zhasanbergenovna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>KALIZHANOV Ualikhan Kalizhanovich</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>KALIZHANOV Ualikhan Kalizhanovich</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>KIRABAEV Serik Smailovich</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>KIRABAEV Serik Smailovich</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/QonayevDiyar.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>KONAEV Diar Askarovich</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/QonayevDiyar.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>KONAEV Diar Askarovich</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>KORABAY Serіkkazy Sybanbayuly</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>KORABAY Serіkkazy Sybanbayuly</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/QydyrTorali.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>KYDYR Torali Edilbayuly</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/QydyrTorali.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>KYDYR Torali Edilbayuly</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/MuqanAmangeldi.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>MUKAN of Amangeldy Orazbayuly</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/MuqanAmangeldi.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>MUKAN of Amangeldy Orazbayuly</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/OrdaGulzhahan.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>ORDA Gulzhakhan Zhumaberdievna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/OrdaGulzhahan.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>ORDA Gulzhakhan Zhumaberdievna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/PiraliGulziya.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>PRALI Gulzia Zhailauovna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/PiraliGulziya.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>PRALI Gulzia Zhailauovna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/RaqyshZhumashai.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>RAKYSH Zhumashay Saylauovna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/RaqyshZhumashai.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>RAKYSH Zhumashay Saylauovna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/Yertai.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>SULTAN Yertay</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/Yertai.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>SULTAN Yertay</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('images/stuff/SaulembekGulmira.jpg')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>SAULEMBEK Gulmira Rzahanovna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('images/stuff/SaulembekGulmira.jpg')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>SAULEMBEK Gulmira Rzahanovna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>SHARIPOVA Dilyara Sapargalievna</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>SHARIPOVA Dilyara Sapargalievna</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-sm-12 col-md-4 mt-5 mb-5">
-                                            <div class="structur__admins">
-                                                <div class="structur__admins__men">
-                                                    <div class="structur__admins__men__photo">
-                                                        <img src="{{ asset('https://via.placeholder.com/300x450')}}">
-                                                    </div>
-                                                    <div class="structur__admins__men__name">
-                                                        <div class="structur__admins__men__name__text">
-                                                            <p>KHAMRAEV Alimzhan Tilikovich</p>
-                                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4 mt-5 mb-5">
+                                        <div class="structur__admins">
+                                            <div class="structur__admins__men">
+                                                <div class="structur__admins__men__photo">
+                                                    <img src="{{ asset('https://via.placeholder.com/300x450')}}">
+                                                </div>
+                                                <div class="structur__admins__men__name">
+                                                    <div class="structur__admins__men__name__text">
+                                                        <p>KHAMRAEV Alimzhan Tilikovich</p>
                                                     </div>
                                                 </div>
                                             </div>

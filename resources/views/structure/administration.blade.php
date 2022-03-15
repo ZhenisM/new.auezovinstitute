@@ -13,9 +13,8 @@
 
 
             <div class="structur__admins__wrap">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4">
+                <div class="row">
+                        <div class="structur-admins col-sm-12 col-md-4">
                             <a class="admins__link" href="{{ route('structure.show', [ 'id' => $directors[0]->id ]) }}">
                                 <div class="structur__admins">
                                     <div class="structur__admins__men">
@@ -32,7 +31,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-4">
+                        <div class="structur-admins col-sm-12 col-md-4">
                             <a class="admins__link" href="{{ route('structure.show', [ 'id' => $directors[1]->id ]) }}">
                                 <div class="structur__admins">
                                     <div class="structur__admins__men">
@@ -49,7 +48,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-12 col-md-4">
+                        <div class="structur-admins col-sm-12 col-md-4">
                             <a class="admins__link" href="{{ route('structure.show', [ 'id' => $directors[2]->id ]) }}">
                                 <div class="structur__admins">
                                     <div class="structur__admins__men">
@@ -68,7 +67,6 @@
                         </div>
 
                     </div>
-                </div>
 
 
 

@@ -6,7 +6,7 @@
 	flex-direction: column;
     align-items: flex-start;
 	margin: 0 auto;
-	width: 1200px;
+	max-width: 1200px;
 	padding-bottom: 60px;
 }
 .structur a:hover {
@@ -43,12 +43,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 450px;
+}
+
+.structur-admins {
+	margin-bottom: 20px;
 }
 
 .structur__admins__wrap .admins__link {
+	display: block;
     cursor: pointer;
-    width: 30%;
+    width: 100%;
     height: 100%;
 }
 
@@ -89,22 +93,27 @@
     height: 60%;
     overflow: hidden;
 }
+.structur__admins__men__photo img {
+	width: 100%;
+}
 .structur__admins__men__name {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
     text-align: center;
-    height: 30%;
+    height: 40%;
+    width: 100%;
 }
 
 .structur__admins__men__name__text {
     height: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
 .structur__admins__men__name__text p {
-	font-size: 24px;
+	font-size: 20px;
 }
 .structur__admins__men__name__text .mini {
 	font-size: 18px;

@@ -7,7 +7,7 @@
         <a href="{{ URL::to('/') }}">{{ trans('content.main') }}</a>&nbsp;/&nbsp;
         <a>{{ trans('content.departmens') }}</a>
     </div>
-        <div class="pnwes__page container">
+        <div class="pnwes__page">
             <div class="row">
             @foreach ($departs as $depart)
                 <div class="col-sm-12 col-md-4 mb-4">

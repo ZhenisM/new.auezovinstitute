@@ -7,7 +7,7 @@
                 <a href="{{ URL::to('/') }}">{{ trans('content.main') }}</a>&nbsp;/&nbsp;
                 {{ trans('header.science') }}
             </div>
-            <div class="project__page container">
+            <div class="project__page">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 mb-5">
                         <a class="bg__first" href="{{ route('sciences.index') }}">

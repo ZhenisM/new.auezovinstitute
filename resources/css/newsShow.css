@@ -5,7 +5,7 @@
 
 .news_page__way {
     margin: 0 auto;
-    width: 1200px;
+    max-width: 1200px;
     padding: 20px 0;
 }
 .news_page__way, .news_page__way a{
@@ -14,7 +14,7 @@
 }
 
 .news {
-    width: 1100px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
