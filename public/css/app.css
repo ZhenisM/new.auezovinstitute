@@ -434,7 +434,8 @@
 }
 
 #myFooter {
-    background-color: #00435d;
+    /*background-color: #00435d;*/
+    background-color: #1f5292;
     color: white;
     padding-top: 30px;
 
@@ -987,13 +988,20 @@ iframe {
     padding: 30px 0;
     line-height: 2.5em
 }
-
-.info div ul {
-    padding: 0;
+.info-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
-
-.info div ul li:last-child {
-    margin-left: 20px;
+.info-row-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.info-row-item i {
+    color: #9a7955;
+    font-size: 24px;
 }
 
 #maptitle{
@@ -1002,10 +1010,6 @@ iframe {
     align-items: center;
 }
 
-#maptitle i {
-    font-size: 24px;
-    color: #57a2be;
-}
 #maptitle p {
     font-size: 24px;
     margin-bottom: 0;
@@ -1022,12 +1026,16 @@ iframe {
 
 }
 .iconstyle i {
-    color: #537AF9;
+    color: #9a7955;
     font-size: 22px;
 }
-
+.iconstyle .line {
+    max-width: 100%;
+    margin: 0 0 0 20px;
+}
 .line {
-    width: 72%;
+    width: 100%;
+    margin: 0 0 0 20px;
     border-top: 2px solid #ccc;
 }
 
@@ -1081,6 +1089,12 @@ iframe {
 
 .contact100-form-title span i {
     color: #57a2be;
+}
+
+.contact100-form-title p {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
 }
 
 
@@ -2117,6 +2131,7 @@ body {
 	/*z-index: 2;*/
 	/*box-shadow: 0 5px 10px rgb(0,0,0,.25);*/
 	width: 100%;
+	background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -2146,7 +2161,7 @@ body {
 
 .logo {
 	width: 24%;
-	padding: 20px;
+	padding: 10px;
 	background-color: #fff;
     display: flex;
     align-items: center;
@@ -2154,7 +2169,7 @@ body {
 }
 
 .logo a {
-    width: 90%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -2264,13 +2279,15 @@ body {
 }
 
 .header__menu {
-    width: 1200px;
-    border-top: solid 2px #fff;
+    width: 100%;
+    /*border-top: solid 2px #fff;*/
     z-index: 19;
-    background-color: #f3f3f3;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0 7px 10px -5px #999;
-    overflow: hidden;
+    background-color: #1f5292;
+    /*-webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;*/
+    /*box-shadow: 0 7px 10px -5px #999;
+    overflow: hidden;*/
     /*opacity: 0.9;
     height: 62px;*/
 }
@@ -2726,18 +2743,21 @@ body {
 }
 
 .nwes__state .line {
-    width: 70%;
+    max-width: 100%;
     height: 0;
     border: solid 1px #ccc;
-    margin: 0;
+    margin: 0 0 0 20px;
 }
 
 .nwes__state .line hr {
     width: 100%;
 }
-
+.nwes__state ul {
+	margin-bottom: 0;
+	padding: 0;
+}
 .nwes__state i {
-	color: #57a2be;
+	color: #9a7955;
 	font-size: 22px;
 }
 
@@ -2754,6 +2774,9 @@ body {
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
 }
 
 .news__archive {
@@ -3035,10 +3058,10 @@ body {
 }
 
 .education__haed .line {
-    width: 80%;
+    max-width: 100%;
     height: 0;
     border: solid 1px #ccc;
-    margin: 0;
+    margin: 0 0 0 20px;
 }
 
 .education__haed .line hr {
@@ -3060,7 +3083,7 @@ body {
 }
 
 .education__haed a i {
-	color: #57a2be;
+	color: #9a7955;
 	font-size: 22px;
 }
 
@@ -3071,10 +3094,12 @@ body {
 
 .education__text {
 	margin-top: 30px;
+	padding: 0 10%;
 }
 
 .education__text p {
 	font-size: 1em;
+	text-align: center;
 }
 
 .education__icons{
@@ -3161,10 +3186,10 @@ body {
 }
 
 .books__haed .line {
-    width: 75%;
+    max-width: 100%;
     height: 0;
     border: solid 1px #ccc;
-    margin: 0;
+    margin: 0 0 0 20px;
 }
 
 .books__haed a {
@@ -3179,13 +3204,16 @@ body {
 }
 
 .books__haed i{
-	color: #57a2be;
+	color: #9a7955;
 	font-size: 22px;
 }
 
 .books__haed p {
 	font-size: 24px;
     color: #05435c;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
 }
 
 .books__button {
@@ -3308,8 +3336,9 @@ body {
 }
 .topnav {
     overflow: hidden;
-    background-color: #f3f3f3;
+    background-color: #1f5292;
     max-width:1200px;
+    margin: 0 auto;
     display: flex;
     align-items: baseline;
 }
@@ -3317,7 +3346,7 @@ body {
 .topnav a {
     float: left;
     display: block;
-    color: #2a5266;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -3338,7 +3367,7 @@ body {
     font-size: 14px;
     border: none;
     outline: none;
-    color: #2a5266;
+    color: #fff;
     padding: 15px 16px;
     background-color: inherit;
     font-family: inherit;

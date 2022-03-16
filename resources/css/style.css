@@ -42,6 +42,7 @@ body {
 	/*z-index: 2;*/
 	/*box-shadow: 0 5px 10px rgb(0,0,0,.25);*/
 	width: 100%;
+	background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,7 +72,7 @@ body {
 
 .logo {
 	width: 24%;
-	padding: 20px;
+	padding: 10px;
 	background-color: #fff;
     display: flex;
     align-items: center;
@@ -79,7 +80,7 @@ body {
 }
 
 .logo a {
-    width: 90%;
+    width: 40%;
     margin: 0 auto;
 }
 
@@ -191,15 +192,15 @@ body {
 }
 
 .header__menu {
-    width: 1200px;
-    border-top: solid 2px #fff;
+    width: 100%;
+    /*border-top: solid 2px #fff;*/
     z-index: 19;
-    background-color: #f3f3f3;
-    -webkit-border-radius: 0 0 10px 10px;
+    background-color: #1f5292;
+    /*-webkit-border-radius: 0 0 10px 10px;
     -moz-border-radius: 0 0 10px 10px;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0 7px 10px -5px #999;
-    overflow: hidden;
+    border-radius: 0 0 10px 10px;*/
+    /*box-shadow: 0 7px 10px -5px #999;
+    overflow: hidden;*/
     /*opacity: 0.9;
     height: 62px;*/
 }
@@ -660,18 +661,21 @@ body {
 }
 
 .nwes__state .line {
-    width: 70%;
+    max-width: 100%;
     height: 0;
     border: solid 1px #ccc;
-    margin: 0;
+    margin: 0 0 0 20px;
 }
 
 .nwes__state .line hr {
     width: 100%;
 }
-
+.nwes__state ul {
+	margin-bottom: 0;
+	padding: 0;
+}
 .nwes__state i {
-	color: #57a2be;
+	color: #9a7955;
 	font-size: 22px;
 }
 
@@ -688,6 +692,7 @@ body {
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    width: max-content;
 }
 
 .news__archive {
@@ -972,10 +977,10 @@ body {
 }
 
 .education__haed .line {
-    width: 80%;
+    max-width: 100%;
     height: 0;
     border: solid 1px #ccc;
-    margin: 0;
+    margin: 0 0 0 20px;
 }
 
 .education__haed .line hr {
@@ -997,7 +1002,7 @@ body {
 }
 
 .education__haed a i {
-	color: #57a2be;
+	color: #9a7955;
 	font-size: 22px;
 }
 
@@ -1008,10 +1013,12 @@ body {
 
 .education__text {
 	margin-top: 30px;
+	padding: 0 10%;
 }
 
 .education__text p {
 	font-size: 1em;
+	text-align: center;
 }
 
 .education__icons{
@@ -1102,10 +1109,10 @@ body {
 }
 
 .books__haed .line {
-    width: 75%;
+    max-width: 100%;
     height: 0;
     border: solid 1px #ccc;
-    margin: 0;
+    margin: 0 0 0 20px;
 }
 
 .books__haed a {
@@ -1120,13 +1127,14 @@ body {
 }
 
 .books__haed i{
-	color: #57a2be;
+	color: #9a7955;
 	font-size: 22px;
 }
 
 .books__haed p {
 	font-size: 24px;
     color: #05435c;
+    width: max-content;
 }
 
 .books__button {

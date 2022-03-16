@@ -35,10 +35,9 @@
         <div class="nwes">
             <div class="nwes__state">
                 <ul>
-                <a href="{{ URL::to('/news') }}"><p><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;{{ trans('main.news') }}</p></a>
-{{--                <div class="line">--}}
-
-{{--                </div>--}}
+                    <a href="{{ URL::to('/news') }}"><p><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;{{ trans('main.news') }}</p></a>
+                </ul>
+                <div class="line"></div>
             </div>
             <div class="nwes__blog">
                 <div class="nwes__blog__mini">
@@ -51,7 +50,7 @@
                                     <a href="{{ route('news.show', [ 'id' => $newsValue->id ]) }}" class="new__mini-wrap">
                                         <div class="new__mini">
                                             <div class="new__mini__img">
-                                                <img src="{{ $newsValue ? asset('uploads/' . $newsValue->image_show) : ""}}">
+                                                <img src="{{ $newsValue ? asset('uploads/' . $newsValue->image_show) : ''}}">
                                             </div>
                                             <div class="new__mini-blog">
                                                 <div class="new__state">
@@ -129,9 +128,7 @@
         <div class="education">
             <div class="education__haed">
                 <a href="{{ URL::to('/main/education') }}"><i class="fas fa-university"></i><p>&nbsp;&nbsp;{{ trans('main.education') }}</p></a>
-{{--                <div class="line">--}}
-
-{{--                </div>--}}
+                <div class="line"></div>
             </div>
             <div class="education__text">
                 <p>Мы предлагаем вам уникальную возможность получить академическую степень, сочетающую в себе научные традиции и современные стандарты образования, по специальностям Магистратуры и Докторантуры PhD:</p>
@@ -201,9 +198,7 @@
         <div class="books">
             <div class="books__haed">
                 <a href="{{ URL::to('/books') }}"> <i class="fas fa-book"></i><p>&nbsp;&nbsp;{{ trans('main.books_institute') }}</p></a>
-                {{--            <div class="line">--}}
-
-                {{--            </div>--}}
+               <div class="line"></div>
             </div>
             @include('main.partials.bookSlider')
             <div class="books__button">

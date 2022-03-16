@@ -27,6 +27,10 @@
     .wrap__contact form {
         margin-left: 30px;
     }
+    .contact-right {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 
     .form__contacts {
         display: flex;
@@ -76,6 +80,9 @@
 
     .form__text {
         position: relative;
+    }
+    .form__email {
+        max-width: 500px;
     }
 
     .form__email i {

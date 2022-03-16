@@ -9,30 +9,27 @@
         <div class="tittle">
             <div class="iconstyle">
                 <span class="contact100-form-title" id="maptitle"><i class="fas fa-map-marked-alt"></i>&nbsp;<p>{{ trans('main.contacts') }}</p></span>
-                {{--            <div class="line"></div>--}}
+                <div class="line"></div>
             </div>
             <div class="container-contact100">
                 <div class="map">
                     <div>
                         <div class="info">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-4">
-                                    <ul>
-                                        <li><p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Адрес:</p></li>
-                                        <li><p>050010, г.Алматы, ул. Курмангазы, 29, 2 этаж.</p></li>
-                                    </ul>
+                            <div class="info-row">
+                                <div class="info-row-item">
+                                    <div><i class="fas fa-map-marker-alt"></i></div>
+                                    <div>Адрес:</div>
+                                    <div>050010, г.Алматы, ул. Курмангазы, 29, 2 этаж.</div>
                                 </div>
-                                <div class="col-sm-12 col-md-4">
-                                    <ul>
-                                        <li><p><i class="fas fa-phone"></i>&nbsp;Контактный телефон:</p></li>
-                                        <li><p>(727) 272 74 11</p></li>
-                                    </ul>
+                                <div class="info-row-item">
+                                    <div><i class="fas fa-phone"></i></div>
+                                    <div>Контактный телефон:</div>
+                                    <div>(727) 272 74 11</div>
                                 </div>
-                                <div class="col-sm-12 col-md-4">
-                                    <ul>
-                                        <li><p><i class="fas fa-envelope-open"></i>&nbsp;e-mail:</p></li>
-                                        <li><p>info@litart.kz</p></li>
-                                    </ul>
+                                <div class="info-row-item">
+                                    <div><i class="fas fa-envelope-open"></i></div>
+                                    <div>e-mail:</div>
+                                    <div>info@litart.kz</div>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +57,7 @@
         <div class="tittle">
             <div class="iconstyle">
                 <span class="contact100-form-title" id="maptitle"><i class="fab fa-telegram-plane"></i>&nbsp;<p>{{ trans('main.write_to_us') }}</p></span>
-                {{--            <div class="line2"></div>--}}
+                <div class="line"></div>
             </div>
             @include('contact-us')
         </div>
