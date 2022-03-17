@@ -1,8 +1,3 @@
-{{--<meta charset="utf-8">--}}
-{{--<meta name="viewport" content="width=device-width, initial-scale=1">--}}
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-{{--<link rel="stylesheet" href="css/Footer-with-button-logo.css">--}}
 <?php
 use App\Menu;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
@@ -11,9 +6,9 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 <footer id="myFooter">
     <div class="container__footer">
-        <div class="logo__footer logo__footer-mod">
+        <!-- <div class="logo__footer logo__footer-mod">
             <a href="{{ URL::to('/') }}"><img src="../../images/{{ trans('header.logo') }}"></a>
-        </div>
+        </div> -->
         <div class="row container__footer__row">
             <div class="row-right">
 {{--                    <ul>--}}
@@ -48,7 +43,18 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 {{--                            </li>--}}
 {{--                        @endforeach--}}
 {{--                    </ul>--}}
-
+                <div class="footer-left">
+                    <div class="footer-left-logo">
+                        <a class="footer-left-logo-img" href="{{ URL::to('/') }}"><img src="../../images/{{ trans('header.logo') }}"></a>
+                    </div>
+                    <div class="social-networks">
+                        <ul>
+                            <li><a href="https://www.facebook.com/auezovinstitute/?ref=bookmarks" target="_blank" class="facebook"><i class="fab fa-facebook-square"></i></a></li>
+                            <li>  <a href="https://www.instagram.com/auezovlitart/" target="_blank" class="inst"><i class="fab fa-instagram"></i></a> </li>
+                            <li> <a href="https://www.youtube.com/channel/UC9JHx3xUONV6inEUzbjUjAQ " target="_blank" class="vk"><i class="fab fa-youtube"></i></a>            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="row-right-links">
                     <div class="row-right-links-item">
                         <img class="res-img" src="../../images/gerb-tmb.png" alt="">
@@ -63,21 +69,14 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
                         <a href="/ru/keruens/1">{{ trans('footer.keruen') }}</a>
                     </div>
                 </div>
-                <div class="social-networks">
-                    <ul>
-                        <li><a href="https://www.facebook.com/auezovinstitute/?ref=bookmarks" target="_blank" class="facebook"><i class="fab fa-facebook-square"></i></a></li>
-                        <li>  <a href="https://www.instagram.com/auezovlitart/" target="_blank" class="inst"><i class="fa fa-instagram"></i></a> </li>
-                        <li> <a href="https://www.youtube.com/channel/UC9JHx3xUONV6inEUzbjUjAQ " target="_blank" class="vk"><i class="fab fa-youtube"></i></a>            </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </div>
-    <div class="footer-copyright">
+    <!-- <div class="footer-copyright">
         <p><a href="http://auezovinstitute.kz">auezovinstitute.kz</a> КН МОН РК&copy; 2019</p>
-    </div>
+    </div> -->
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
 <script>
     jQuery(document).ready(function () {
         // ------------------------------------------------------- //

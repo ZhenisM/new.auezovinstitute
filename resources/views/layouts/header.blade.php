@@ -13,7 +13,7 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
                 <ul>
                     {{--                            <li> <a href="https://www.google.ru/" target="_blank" class="google"><i class="fa fa-google-plus"></i></a> </li>--}}
                     <li><a href="https://www.facebook.com/auezovinstitute/?ref=bookmarks" target="_blank" class="facebook"><i class="fab fa-facebook-square"></i></a></li>
-                    <li>  <a href="https://www.instagram.com/auezovlitart/" target="_blank" class="inst"><i class="fa fa-instagram"></i></a> </li>
+                    <li>  <a href="https://www.instagram.com/auezovlitart/" target="_blank" class="inst"><i class="fab fa-instagram"></i></a> </li>
                     <li> <a href="https://www.youtube.com/channel/UC9JHx3xUONV6inEUzbjUjAQ " target="_blank" class="youtube"><i class="fab fa-youtube"></i></a>            </li>
                 </ul>
             </div>

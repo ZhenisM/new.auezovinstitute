@@ -37,6 +37,7 @@
     font-family: inherit;
     margin: 0;
     min-width: 200px;
+    font-family: 'OpenSans-Regular';
 }
 
 .dropdown-content {

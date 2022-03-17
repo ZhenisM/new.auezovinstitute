@@ -47,6 +47,7 @@
         display: flex;
         justify-content: flex-end;
         border: none !important;
+        padding: 0 40px;
     }
 
     .form__button input {
