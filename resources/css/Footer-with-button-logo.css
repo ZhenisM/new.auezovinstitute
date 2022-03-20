@@ -220,7 +220,7 @@ body{
     
 }
 .footer-left-logo-img {
-    width: 150px;
+    width: 120px;
     display: block;
 }
 .footer-left-logo-img img{
@@ -245,6 +245,23 @@ body{
     width: 100px;
     margin-bottom: 10px;
 }
+@media only screen and (max-width: 756px) {
+    .row-right-links-item {
+        width: auto;
+        margin-bottom: 10px;
+    }
+    .row-right-links-item img {
+        display: none;
+    }
+    .row-right-links {
+        width: max-content;
+        flex-direction: column;
+    }
+    .row-right {
+        width: 90%;
+    }
+}
+
 .row-right-links-item a {
     
 }

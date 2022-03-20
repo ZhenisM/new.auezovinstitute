@@ -81,8 +81,10 @@
     }
     .topnav a.icon {
         display: block;
-        position: absolute;
         right: 0;
+    }
+    .topnav a:hover {
+        background-color: #ffffff5c;
     }
 }
 

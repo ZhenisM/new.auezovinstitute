@@ -46,7 +46,7 @@
                         <?php $first = 1; ?>
                         @foreach ($news as $newsValue)
                             @if($first == 1)
-                                <div class="nwes-blog-cards-item">
+                                <div class="nwes-blog-cards-item nwes-blog-cards-item-left">
                                     <a href="{{ route('news.show', [ 'id' => $newsValue->id ]) }}" class="new__mini-wrap">
                                         <div class="new__mini">
                                             <div class="new__mini__img">
