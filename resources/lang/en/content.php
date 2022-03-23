@@ -23,6 +23,7 @@ return [
     'altyns' => 'Golden Fund',
     'comment' => 'Comments',
     'book_read' => 'Read the book',
+    'book_read' => 'Read the book in pdf',
     'education' => 'Integration of Education and Science',
     'administration'=>'Administration',
     'structure'=>'Structure',

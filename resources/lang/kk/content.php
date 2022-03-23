@@ -23,6 +23,7 @@ return [
     'altyns' => 'Алтын қор',
     'comment' => 'Кітап туралы пікір',
     'book_read' => 'Кітапті оқу',
+    'book_read_pdf' => 'Кітапті оқу pdf',
     'education' => 'Білім және ғылым интеграциясы',
     'administration'=>'Басшылық',
     'structure'=>'Құрылым',

@@ -24,6 +24,7 @@ return [
     'halyks' => 'Золотой фонд',
     'comment' => 'Коментарии',
     'book_read' => 'Читать книгу',
+    'book_read_pdf' => 'Читать книгу в pdf',
     'education' => 'Интеграция образования и науки',
     'administration'=>'Руководство',
     'structure'=>'Структура',

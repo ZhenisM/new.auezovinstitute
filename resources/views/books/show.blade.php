@@ -25,6 +25,9 @@
                                 <div class="news__state__reader">
                                     <a href="{{ route('reader.index', [ 'id' => $bok->id ]) }}" target="_blank">{{trans('content.book_read')}}</a>
                                 </div>
+                                <div class="news__state__reader">
+                                    <a href="../../uploads/{{ $bok->ebook_show }}" target="_blank">{{trans('content.book_read_pdf')}}</a>
+                                </div>
                                 <div class="news__state__text__descr__items">
                                     @if(empty($bok->audio_show))
                                         <div class="audio-player" style="display: none">
