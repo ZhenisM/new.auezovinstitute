@@ -88,7 +88,7 @@
                                 <iframe src="{!! $bok->audio !!}" style="overflow: auto;" width="100%" height="250" frameborder="1"></iframe>
                                 @endif
                                 <br />
-                            @foreach($comments as $comment)
+                                @foreach($comments as $comment)
                                     <div class="card">
                                         <div class="card-header">
                                             <div style="float: left;">Comment from: {{$comment->user_name}}</div>
