@@ -75,8 +75,19 @@
 
 <hr />
 
+<label for="">Если книга PDF</label>
+<select class="form-control" name="pdf">
+    @if (isset($book->id))
+        <option value="0" @if ($book->published == 0) selected="" @endif>Нет</option>
+        <option value="1" @if ($book->published == 1) selected="" @endif>Да</option>
+    @else
+        <option value="0">Нет</option>
+        <option value="1">Да</option>
+    @endif
+</select>
+
 <div class="form-group">
-    <label for="">загрузить epub книгу</label>
+    <label for="">загрузить epub или pdf книгу</label>
     <input data-preview="#preview" name="ebook" type="file" id="ebook">{{$book->ebook ?? ""}}
     <img class="col-sm-6" id="preview" src="{{ $book ? asset('uploads/' . $book->ebook_show) : ""}}">
 </div>

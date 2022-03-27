@@ -22,12 +22,15 @@
                                 <div class="news__state__text__descr__aphtor">
                                     <p>{{ trans('content.author') }}</p><p>{!! $bok->description_short !!}</p>
                                 </div>
+                                @if($bok->pdf != 1)
                                 <div class="news__state__reader">
                                     <a href="{{ route('reader.index', [ 'id' => $bok->id ]) }}" target="_blank">{{trans('content.book_read')}}</a>
                                 </div>
+                                @else
                                 <div class="news__state__reader">
                                     <a href="../../uploads/{{ $bok->ebook_show }}" target="_blank">{{trans('content.book_read_pdf')}}</a>
                                 </div>
+                                @endif
                                 <div class="news__state__text__descr__items">
                                     @if(empty($bok->audio_show))
                                         <div class="audio-player" style="display: none">
