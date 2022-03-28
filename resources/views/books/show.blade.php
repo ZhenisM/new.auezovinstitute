@@ -13,7 +13,7 @@
                     <div class="news__state__headline">
                         <h1>{{ $bok->title }}</h1>
                     </div>
-                    <div class="news__state__text news__books__text container">
+                    <div class="news__state__text news__books__text">
                         <div class="row">
                             <div class="news__books__img col-sm-12 col-md-2">
                                 <img src="{{ $bok ? asset('uploads/' . $bok->image_show) : ""}}" alt="">

@@ -3383,7 +3383,26 @@ body {
     text-align: center;
 }
 /*----------- Стили для отдельных страниц книг -------------*/
-.wrap__edu {
+
+@media only screen and (max-width: 756px) {
+    .news__state__text .news__books__img {
+        margin: 0 auto 20px;
+        max-width: 50%;
+    }
+    .books__page {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .books__show {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+}.wrap__edu {
     /*margin-top: 150px;*/
 }
 
