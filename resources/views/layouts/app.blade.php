@@ -13,6 +13,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 
 
     <!-- Fonts -->
