@@ -12,6 +12,7 @@ use App\Museum;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Inst;
+use App\qrcode;
 
 class BooksController extends Controller
 {
@@ -47,6 +48,7 @@ class BooksController extends Controller
         $aboutses = Inst::orderBy('id', 'desc')->where('locale', \App::getLocale())->where('published', 1)->paginate(12);
         $cultures = Culture::orderBy('id', 'desc')->where('locale', \App::getLocale())->get();
         $comments = Comment::all()->where('book_id', $id);
+        $qrcodes = qrcode::orderby('id', 'desc')->get();
         return view('books.show', [
             'museums' =>  $museums,
             'altyns' =>  $altyns,
@@ -56,6 +58,7 @@ class BooksController extends Controller
             'aboutses' => $aboutses,
             'cultures' => $cultures,
             'comments' => $comments,
+            'qrcodes' => $qrcodes,
         ]);
     }
 

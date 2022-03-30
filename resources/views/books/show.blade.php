@@ -31,6 +31,11 @@
                                     <a href="../../uploads/{{ $bok->ebook_show }}" target="_blank">{{trans('content.book_read_pdf')}}</a>
                                 </div>
                                 @endif
+                                @foreach ($qrcodes as $qrcode)
+                                    @if($qrcode->name === $bok->title)
+                                        <img src="data:image/png;base64, {!! $qrcode->qrcode !!} ">
+                                    @endif
+                                @endforeach
                                 <div class="news__state__text__descr__items">
                                     @if(empty($bok->audio_show))
                                         <div class="audio-player" style="display: none">
