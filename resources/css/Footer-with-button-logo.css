@@ -217,7 +217,9 @@ body{
     align-items: center;
 }
 .footer-left-logo {
-    
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
 }
 .footer-left-logo-img {
     width: 120px;

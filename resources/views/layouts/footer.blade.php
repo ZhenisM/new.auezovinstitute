@@ -61,11 +61,11 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
                         <a href="http://sc.edu.gov.kz/">{{ trans('footer.scientifickometee') }}</a>
                     </div>
                     <div class="row-right-links-item">
-                        <img class="res-img" src="../../images/auezovmuseium-tmb.jpg" alt="">
+                        <img class="res-img" src="../../images/auezovmuseium-tmb.png" alt="">
                         <a href="/ru/museums/1">{{ trans('footer.museium') }}</a>
                     </div>
                     <div class="row-right-links-item">
-                        <img class="res-img" src="../../images/keruen-tmb.jpg" alt="">
+                        <img class="res-img" src="../../images/keruen-tmb.png" alt="">
                         <a href="/ru/keruens/1">{{ trans('footer.keruen') }}</a>
                     </div>
                 </div>
