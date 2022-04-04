@@ -36,7 +36,7 @@
             </div>
                 <tfoot>
                 <tr colspan="3">
-                    <ul class="pagination pull-right">
+                    <ul class="pagination-wrap pull-right">
                         {{$newses->links()}}
                     </ul>
                 </tr>
