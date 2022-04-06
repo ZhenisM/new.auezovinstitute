@@ -10,8 +10,14 @@
     @endif
 </select>
 <br>
-<label for="">Заголовок</label>
-<input type="text" class="form-control" name="title" placeholder="Заголовок новости" value="{{$keruen->title ?? ""}}" required><br>
+<label for="">Заголовок kk</label>
+<input type="text" class="form-control" name="title_kk" placeholder="Заголовок" value="{{$keruen->title_kk ?? ""}}" required><br>
+
+<label for="">Заголовок ru</label>
+<input type="text" class="form-control" name="title_ru" placeholder="Заголовок" value="{{$keruen->title_ru ?? ""}}" required><br>
+
+<label for="">Заголовок en</label>
+<input type="text" class="form-control" name="title_en" placeholder="Заголовок" value="{{$keruen->title_en ?? ""}}" required><br>
 
 <!-- label for="">Выбрать язык поста</label>
 <select name="locale" class="form-control" required>
@@ -50,8 +56,14 @@
 <label for="">Краткое описание</label>
 <textarea class="form-control" id="description_short" name="description_short">{{$keruen->description_short ?? ""}}</textarea>
 
-<label for="">Полное описание</label>
-<textarea class="form-control" id="description" name="description">{{$keruen->description ?? ""}}</textarea>
+<label for="">Полное описание kk</label>
+<textarea class="form-control" id="description" name="description_kk">{{$keruen->description_kk ?? ""}}</textarea>
+
+<label for="">Полное описание ru</label>
+<textarea class="form-control" id="description" name="description_ru">{{$keruen->description_ru ?? ""}}</textarea>
+
+<label for="">Полное описание en</label>
+<textarea class="form-control" id="description" name="description_en">{{$keruen->description_en ?? ""}}</textarea>
 
 <hr />
 

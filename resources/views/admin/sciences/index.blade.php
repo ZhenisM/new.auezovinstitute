@@ -26,7 +26,7 @@
             <tbody>
             @forelse($sciences as $science)
                 <tr>
-                    <td>{{$science->title}}</td>
+                    <td>{{$science->title_ru}}</td>
                     <td>{{$science->locale}}</td>
                     <td>{{$science->published}}</td>
                     <td class="text-right">

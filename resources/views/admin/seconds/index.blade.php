@@ -26,7 +26,7 @@
             <tbody>
             @forelse($seconds as $second)
                 <tr>
-                    <td>{{$second->title}}</td>
+                    <td>{{$second->title_ru}}</td>
                     <td>{{$second->locale}}</td>
                     <td>{{$second->published}}</td>
                     <td class="text-right">

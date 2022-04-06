@@ -26,7 +26,7 @@
             <tbody>
             @forelse($insts as $inst)
                 <tr>
-                    <td>{{$inst->title}}</td>
+                    <td>{{$inst->title_ru}}</td>
                     <td>{{$inst->locale}}</td>
                     <td>{{$inst->published}}</td>
                     <td class="text-right">

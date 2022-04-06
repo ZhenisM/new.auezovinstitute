@@ -26,7 +26,7 @@
             <tbody>
             @forelse($thehirds as $thehird)
                 <tr>
-                    <td>{{$thehird->title}}</td>
+                    <td>{{$thehird->title_ru}}</td>
                     <td>{{$thehird->locale}}</td>
                     <td>{{$thehird->published}}</td>
                     <td class="text-right">

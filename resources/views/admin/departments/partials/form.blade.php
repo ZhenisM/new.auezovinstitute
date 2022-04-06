@@ -10,8 +10,15 @@
     @endif
 </select>
 
-<label for="">Заголовок</label>
-<input type="text" class="form-control" name="title" placeholder="Заголовок новости" value="{{$department->title ?? ""}}" required><br>
+<label for="">Заголовок kk</label>
+<input type="text" class="form-control" name="title_kk" placeholder="Заголовок отдела" value="{{$department->title_kk ?? ""}}" required><br>
+
+<label for="">Заголовок ru</label>
+<input type="text" class="form-control" name="title_ru" placeholder="Заголовок отдела" value="{{$department->title_ru ?? ""}}" required><br>
+
+<label for="">Заголовок en</label>
+<input type="text" class="form-control" name="title_en" placeholder="Заголовок отдела" value="{{$department->title_en ?? ""}}" required><br>
+
 
 <!-- <label for="">Выбрать язык поста</label>
 <select name="locale" class="form-control" required>
@@ -48,11 +55,23 @@
 </div>
 
 
-<label for="">Краткое описание</label>
-<textarea class="form-control" id="description_short" name="description_short">{{$department->description_short ?? ""}}</textarea>
+<label for="">Краткое описание kk</label>
+<textarea class="form-control" id="description_short" name="description_short_kk">{{$department->description_short_kk ?? ""}}</textarea>
 
-<label for="">Полное описание</label>
-<textarea class="form-control" id="description" name="description">{{$department->description ?? ""}}</textarea>
+<label for="">Краткое описание ru</label>
+<textarea class="form-control" id="description_short" name="description_short_ru">{{$department->description_short_ru ?? ""}}</textarea>
+
+<label for="">Краткое описание en</label>
+<textarea class="form-control" id="description_short" name="description_short_en">{{$department->description_short_en ?? ""}}</textarea>
+
+<label for="">Полное описание kk</label>
+<textarea class="form-control" id="description" name="description_kk">{{$department->description_kk ?? ""}}</textarea>
+
+<label for="">Полное описание ru</label>
+<textarea class="form-control" id="description" name="description_ru">{{$department->description_ru ?? ""}}</textarea>
+
+<label for="">Полное описание en</label>
+<textarea class="form-control" id="description" name="description_en">{{$department->description_en ?? ""}}</textarea>
 
 <hr />
 

@@ -27,6 +27,7 @@ return [
     | applications. A default option is provided that is compatible with
     | the Mailgun mail service which will provide reliable deliveries.
     |
+    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
     */
 
     'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
@@ -84,9 +85,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('MAIL_USERNAME' ),
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('MAIL_PASSWORD' ),
 
     /*
     |--------------------------------------------------------------------------

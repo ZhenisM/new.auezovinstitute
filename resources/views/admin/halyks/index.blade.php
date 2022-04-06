@@ -26,7 +26,7 @@
             <tbody>
             @forelse($halyks as $halyk)
                 <tr>
-                    <td>{{$halyk->title}}</td>
+                    <td>{{$halyk->title_ru}}</td>
                     <td>{{$halyk->locale}}</td>
                     <td>{{$halyk->published}}</td>
                     <td class="text-right">

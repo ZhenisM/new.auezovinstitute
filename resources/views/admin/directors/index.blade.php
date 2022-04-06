@@ -26,7 +26,7 @@
             <tbody>
             @forelse($directors as $director)
                 <tr>
-                    <td>{{$director->title}}</td>
+                    <td>{{$director->title_ru}}</td>
                     <td>{{$director->locale}}</td>
                     <td>{{$director->published}}</td>
                     <td class="text-right">

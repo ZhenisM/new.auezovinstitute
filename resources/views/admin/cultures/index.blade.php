@@ -26,7 +26,7 @@
             <tbody>
             @forelse($cultures as $culture)
                 <tr>
-                    <td>{{$culture->title}}</td>
+                    <td>{{$culture->title_kk}}</td>
                     <td>{{$culture->locale}}</td>
                     <td>{{$culture->published}}</td>
                     <td class="text-right">

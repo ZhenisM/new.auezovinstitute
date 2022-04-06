@@ -26,7 +26,7 @@
             <tbody>
             @forelse($keruens as $keruen)
                 <tr>
-                    <td>{{$keruen->title}}</td>
+                    <td>{{$keruen->title_kk}}</td>
                     <td>{{$keruen->locale}}</td>
                     <td>{{$keruen->published}}</td>
                     <td class="text-right">

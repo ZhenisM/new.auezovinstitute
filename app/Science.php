@@ -11,7 +11,7 @@ class Science extends Model
     /**
      * @var array
      */
-    protected $fillable = ['title', 'slug', 'description_short', 'description', 'image', 'image_show', 'meta_title', 'meta_description', 'meta_keyword', 'published', 'create_by', 'modified_by', 'locale'];
+    protected $fillable = ['title_ru', 'title_kk', 'title_en', 'slug', 'description_short', 'description_kk', 'description_ru', 'description_en', 'image', 'image_show', 'meta_title', 'meta_description', 'meta_keyword', 'published', 'create_by', 'modified_by', 'locale'];
 
     public function setSlugAttribute ($value) {
         $this->attributes['slug'] = Str::slug( mb_substr($this->title, 0, 40) . "-" . Carbon::now()->format('dmyHi'), '-');

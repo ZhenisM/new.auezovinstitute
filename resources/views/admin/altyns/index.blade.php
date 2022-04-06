@@ -26,7 +26,7 @@
             <tbody>
             @forelse($altyns as $altyn)
                 <tr>
-                    <td>{{$altyn->title}}</td>
+                    <td>{{$altyn->title_ru}}</td>
                     <td>{{$altyn->locale}}</td>
                     <td>{{$altyn->published}}</td>
                     <td class="text-right">

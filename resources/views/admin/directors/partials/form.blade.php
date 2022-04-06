@@ -10,8 +10,14 @@
     @endif
 </select>
 
-<label for="">Ф.И.О.</label>
-<input type="text" class="form-control" name="title" placeholder="Заголовок новости" value="{{$director->title ?? ""}}" required><br>
+<label for="">Ф.И.О. kk</label>
+<input type="text" class="form-control" name="title_kk" placeholder="Ф.И.О." value="{{$director->title_kk ?? ""}}" required><br>
+
+<label for="">Ф.И.О. ru</label>
+<input type="text" class="form-control" name="title_ru" placeholder="Ф.И.О." value="{{$director->title_ru ?? ""}}" required><br>
+
+<label for="">Ф.И.О. en</label>
+<input type="text" class="form-control" name="title_en" placeholder="Ф.И.О." value="{{$director->title_en ?? ""}}" required><br>
 
 <!-- <label for="">Выбрать язык поста</label>
 <select name="locale" class="form-control" required>
@@ -50,11 +56,23 @@
 </div>
 
 
-<label for="">Должность</label>
-<textarea class="form-control" id="description_short" name="description_short">{{$director->description_short ?? ""}}</textarea>
+<label for="">Должность kk</label>
+<textarea class="form-control" id="description_short" name="description_short_kk">{{$director->description_short_kk ?? ""}}</textarea>
 
-<label for="">Полное описание</label>
-<textarea class="form-control" id="description" name="description">{{$director->description ?? ""}}</textarea>
+<label for="">Должность ru</label>
+<textarea class="form-control" id="description_short" name="description_short_ru">{{$director->description_short_ru ?? ""}}</textarea>
+
+<label for="">Должность en</label>
+<textarea class="form-control" id="description_short" name="description_short_en">{{$director->description_short_en ?? ""}}</textarea>
+
+<label for="">Полное описание kk</label>
+<textarea class="form-control" id="description" name="description_kk">{{$director->description_kk ?? ""}}</textarea>
+
+<label for="">Полное описание ru</label>
+<textarea class="form-control" id="description" name="description_ru">{{$director->description_ru ?? ""}}</textarea>
+
+<label for="">Полное описание en</label>
+<textarea class="form-control" id="description" name="description_en">{{$director->description_en ?? ""}}</textarea>
 
 <hr />
 

@@ -26,7 +26,7 @@
             <tbody>
             @forelse($departments as $department)
                 <tr>
-                    <td>{{$department->title}}</td>
+                    <td>{{$department->title_ru}}</td>
                     <td>{{$department->locale}}</td>
                     <td>{{$department->published}}</td>
                     <td class="text-right">

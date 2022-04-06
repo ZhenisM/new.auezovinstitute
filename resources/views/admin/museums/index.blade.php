@@ -26,7 +26,7 @@
             <tbody>
             @forelse($museums as $museum)
                 <tr>
-                    <td>{{$museum->title}}</td>
+                    <td>{{$museum->title_kk}}</td>
                     <td>{{$museum->locale}}</td>
                     <td>{{$museum->published}}</td>
                     <td class="text-right">

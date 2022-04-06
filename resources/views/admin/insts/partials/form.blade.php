@@ -10,8 +10,14 @@
     @endif
 </select>
 
-<label for="">Заголовок</label>
-<input type="text" class="form-control" name="title" placeholder="Заголовок новости" value="{{$inst->title ?? ""}}" required><br>
+<label for="">Заголовок kk</label>
+<input type="text" class="form-control" name="title_kk" placeholder="Заголовок подраздела" value="{{$inst->title_kk ?? ""}}" required><br>
+
+<label for="">Заголовок ru</label>
+<input type="text" class="form-control" name="title_ru" placeholder="Заголовок подраздела" value="{{$inst->title_ru ?? ""}}" required><br>
+
+<label for="">Заголовок en</label>
+<input type="text" class="form-control" name="title_en" placeholder="Заголовок подраздела" value="{{$inst->title_en ?? ""}}" required><br>
 
 <!-- <label for="">Выбрать язык поста</label>
 <select name="locale" class="form-control" required>
@@ -54,8 +60,14 @@
 <label for="">Краткое описание</label>
 <textarea class="form-control" id="description_short" name="description_short">{{$inst->description_short ?? ""}}</textarea>
 
-<label for="">Полное описание</label>
-<textarea class="form-control" id="description" name="description">{{$inst->description ?? ""}}</textarea>
+<label for="">Полное описание kk</label>
+<textarea class="form-control" id="description" name="description_kk">{{$inst->description_kk ?? ""}}</textarea>
+
+<label for="">Полное описание ru</label>
+<textarea class="form-control" id="description" name="description_ru">{{$inst->description_ru ?? ""}}</textarea>
+
+<label for="">Полное описание en</label>
+<textarea class="form-control" id="description" name="description_en">{{$inst->description_en ?? ""}}</textarea>
 
 <hr />
 
