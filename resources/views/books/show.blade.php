@@ -26,7 +26,13 @@
                                 <div class="news__state__reader">
                                     <a href="{{ route('reader.index', [ 'id' => $bok->id ]) }}" target="_blank">{{trans('content.book_read')}}</a>
                                 </div>
+                                <div class="news__state__reader book_none">
+                                    <span>{{trans('content.book_read_pdf')}}</span>
+                                </div>
                                 @else
+                                <div class="news__state__reader book_none">
+                                    <span>{{trans('content.book_read')}}</span>
+                                </div>
                                 <div class="news__state__reader">
                                     <a href="../../uploads/{{ $bok->ebook_show }}" target="_blank">{{trans('content.book_read_pdf')}}</a>
                                 </div>
