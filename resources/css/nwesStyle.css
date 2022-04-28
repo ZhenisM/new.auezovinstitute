@@ -146,6 +146,11 @@
     text-decoration: none;
 }
 
+.pnwes__page__link {
+	width: 350px;
+    margin: 10px;
+}
+
 .pnwes__page__block {
     height: 100%;
 	border-radius: 5px;

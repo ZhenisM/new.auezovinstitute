@@ -6,30 +6,20 @@
             <a href="{{ URL::to('/') }}">{{ trans('content.main') }}</a>&nbsp;/
             <a href="{{ URL::to('structure/administration') }}">{{ trans('header.leadership') }}</a>&nbsp;/
         </div>
-        <div>
-            <div class="director__wrap">
-                <div class="director">
-                    <div class="director__admin">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-12 col-lg-4">
-                                    <div class="director__admin__photo">
-                                        <img src="{{ $director ? asset('uploads/' . $director->image_show) : ""}}" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-lg-8">
-                                    <div class="director__admin__text">
-                                        <h1>{{ $director->title }}</h1>
-                                        <p class="aphtor">{!! $director->description_short !!}</p>
-                                        <div class="director__content">
-                                            <div class="text_review">
-                                                <p class="desc">{!!  $director->description !!}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+        <div class="director__wrap">
+            <div class="director">
+                <div class="director__admin">
+                    <div class="director__admin__photo">
+                        <img src="{{ $director ? asset('uploads/' . $director->image_show) : ""}}" alt="">
+                    </div>
+                    <div class="director__admin__text">
+                        <h1>{{ $director->title }}</h1>
+                        <p class="aphtor">{!! $director->description_short !!}</p>
+                        <div class="director__content">
+                            <div class="text_review">
+                                <p class="desc">{!!  $director->description !!}</p>
                             </div>
-                       </div>
+                        </div>
                     </div>
                 </div>
             </div>
