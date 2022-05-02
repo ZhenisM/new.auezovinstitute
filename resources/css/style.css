@@ -1225,3 +1225,17 @@ body {
 .search__wrap h2 {
     margin: 20px 0;
 }
+
+.myvideo {
+	position:relative;
+	padding: 0 0 56.25% 0;
+	height:0;
+	overflow:hidden;
+}
+.myvideo iframe,.myvideo object,.myvideo embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
