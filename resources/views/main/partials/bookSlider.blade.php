@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>jQuery Multislider Demos</title>
-     <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-    <!-- <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-    <!-- <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
     <style>
         body { font-family:'Open Sans'; background-color:#fafafa;}
         h2 { margin:30px auto;}
@@ -247,38 +244,6 @@
                     </div>
                 @endforeach
             @endif
-{{--            <div class="item">--}}
-{{--                <div class="imgTitle">--}}
-{{--                    <h2 class="blogTitle">Arch</h2>--}}
-{{--                    <img src="https://placeimg.com/500/300/arch" alt="" />--}}
-{{--                </div>--}}
-{{--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tellus ex. Integer eu fringilla nisi. Donec id dapibus mauris, eget dignissim turpis ...</p>--}}
-{{--                <a href="#">Read More</a>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="imgTitle">--}}
-{{--                    <h2 class="blogTitle">Nature</h2>--}}
-{{--                    <img src="https://placeimg.com/500/300/nature" alt="" />--}}
-{{--                </div>--}}
-{{--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tellus ex. Integer eu fringilla nisi. Donec id dapibus mauris, eget dignissim turpis ...</p>--}}
-{{--                <a href="#">Read More</a>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="imgTitle">--}}
-{{--                    <h2 class="blogTitle">People</h2>--}}
-{{--                    <img src="https://placeimg.com/500/300/people" alt="" />--}}
-{{--                </div>--}}
-{{--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tellus ex. Integer eu fringilla nisi. Donec id dapibus mauris, eget dignissim turpis ...</p>--}}
-{{--                <a href="#">Read More</a>--}}
-{{--            </div>--}}
-{{--            <div class="item">--}}
-{{--                <div class="imgTitle">--}}
-{{--                    <h2 class="blogTitle">Tech</h2>--}}
-{{--                    <img src="https://placeimg.com/500/300/tech" alt="" />--}}
-{{--                </div>--}}
-{{--                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tellus ex. Integer eu fringilla nisi. Donec id dapibus mauris, eget dignissim turpis ...</p>--}}
-{{--                <a href="#">Read More</a>--}}
-{{--            </div>--}}
         </div>
         <div class="MS-controls">
             <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>

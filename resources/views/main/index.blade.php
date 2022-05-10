@@ -3,35 +3,6 @@
 @section('content')
            @include('layouts.banner')
     <div class="wrap__news">
-{{--        <div class="headline">--}}
-{{--            <div class="headline__color">--}}
-{{--                <div class="headline__color__text">--}}
-{{--                    <p class="bold">--}}
-                        <?php
-//                    $quotes[] = trans('main.title');
-//                    $quotes[] = trans('main.title2');
-//                    $quotes[] = trans('main.title3');
-//                    $quotes[] = trans('main.title4');
-//                    $quotes[] = trans('main.title5');
-//                    $quotes[] = trans('main.title6');
-//                    $quotes[] = trans('main.title7');
-//                    $quotes[] = trans('main.title8');
-//                    $quotes[] = trans('main.title9');
-//                    $quotes[] = trans('main.title10');
-//                    $quotes[] = trans('main.title11');
-//                    $quotes[] = trans('main.title12');
-//                    $quotes[] = trans('main.title13');
-//                    $quotes[] = trans('main.title14');
-//                    srand ((double) microtime() * 1000000);
-//                    $random_number = rand(0,count($quotes)-1);
-//                    echo
-//                    ($quotes[$random_number]);
-                    ?>
-{{--                    </p>--}}
-{{--                    <p>Мухтар Ауэзов</p>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
         <div class="nwes">
             <div class="nwes__state">
                 <ul>
@@ -111,19 +82,6 @@
             </div>
         </div>
     </div>
-	           <!--<div class="wrap-education">
-               <div class="education">
-                   <div class="education__haed">
-                       <a href="#">
-                           <i class="fa fa-instagram"></i>
-                           <p>&nbsp;&nbsp;Instagram</p>
-                       </a>
-                   </div>
-                   <!-- Горизонтальная ориентация -->
-                   <!--<iframe src='/inwidget/index.php?width=800&inline=7&view=14&toolbar=false&adaptive=true' data-inwidget scrolling='no' frameborder='no' style='border:none;width:800px;height:295px;overflow:hidden;'></iframe>
-               </div>
-           </div>
-		-->
     <div class="wrap-education">
         <div class="education">
             <div class="education__haed">

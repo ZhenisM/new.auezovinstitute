@@ -536,55 +536,6 @@ body {
     margin-top: 10%;
 }
 
-.headline {
-	/*margin-top: -35%;*/
-    /*margin-left: 10%;*/
-    display: flex;
-    position: absolute;
-    margin-left: 50px;
-    margin-top: -250px;
-}
-
-.headline__color {
-    background-color: #1a5972;
-    opacity: 0.9;
-}
-
-.headline__color__text {
-    margin: 20px;
-    padding: 0 20px;
-    border-left: solid 4px #fff;
-}
-
-.headline__color__text p {
-
-}
-
-.headline a {
-	background-color: #537AF9;
-	color: #fff;
-	padding: 10px 20px;
-	border-radius: 3px;
-	font-size: 14px;
-	margin-top: 30px;
-	cursor: pointer;
-}
-
-.headline a:hover {
-	text-decoration: none;
-	color: #fff;
-}
-
-.headline .bold {
-	font-size: 24px;
-}
-
-.headline p {
-	margin-top: 20px;
-	font-size: 16px;
-    color: #fff;
-}
-
 .block__text {
     background-color: #00435d;
     opacity: 0.7;
