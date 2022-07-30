@@ -31,7 +31,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="dg-widget-link" href="http://2gis.kz/almaty/firm/9429940000795835/center/76.952369,43.245279/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Алматы</a>
+                        <!-- <a class="dg-widget-link" href="http://2gis.kz/almaty/firm/9429940000795835/center/76.952369,43.245279/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Алматы</a>
                         <div class="dg-widget-link">
                             <a href="http://2gis.kz/almaty/firm/9429940000795835/photos/9429940000795835/center/76.952369,43.245279/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos">Фотографии компании</a>
                         </div>
@@ -43,7 +43,7 @@
                             w100 = "100%";
                             !function(){function o(o){var t=document.getElementById(o);t&&(t.style.display="none")}function t(o,t){return("https:"===window.location.protocol?"https:":"http:")+"//widgets.2gis.com/widget?type="+o+"&options="+encodeURIComponent(JSON.stringify(t))}function i(o){return o.src?'<iframe frameborder="no" style="border: '+(o.borderColor?"1px solid "+o.borderColor:"none")+'; box-sizing: border-box;" width="'+o.width+'" height="'+o.height+'" src="'+o.src+'"></iframe>':""}window.DG=window.DG||{},DG.Widget=DG.Widget||{},DG.Widget.Components=DG.Widget.Components||{},window.DGWidgetLoader=function(e){(function(o){for(var t=document.querySelectorAll("."+o),i=0;i<t.length;i++)t[i].style.display="none"})("dg-widget-link"),o("firmsonmap_biglink"),o("firmsonmap_biglink_photo"),o("firmsonmap_biglink_route"),(e=e||{}).org=e.org||[],e.pos=e.pos||{},e.opt=e.opt||{};var n=e.width||900;"%"!=(n=n.toString()).slice(-1)&&(n=parseInt(n,10),n=Math.min(1200,n),n=Math.max(500,n));var r=e.height||600;"%"!=(r=r.toString()).slice(-1)&&(r=parseInt(r,10),r=Math.min(1e3,r),r=Math.max(300,r));for(var d=e.borderColor||"#a3a3a3",s="",g=0;g<e.org.length;g++)e.org[g].id&&(s+=e.org[g].id+",");s=s.slice(0,-1);var a={pos:e.pos,opt:e.opt,org:s};document.write(i({width:n,height:r,borderColor:d,src:t("firmsonmap",a)}))},DG.Widget.Components.Loader=function(e){o("2gis_mini_biglink");var n,r,d=e.resize;d?(n=d.w?parseInt(d.w,10):700,r=d.h?parseInt(d.h,10):400):(n=700,r=400),document.write(i({width:n,height:r,src:t("mini",e)}))}}();</script><script charset="utf-8">new DGWidgetLoader({"width":w100,"height":150,"borderColor":"#a3a3a3","pos":{"lat":43.245279,"lon":76.952369,"zoom":16},"opt":{"city":"almaty"},"org":[{"id":"9429940000795835"}]});
                         </script>
-                        <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+                        <noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript> -->
                     </div>
                 </div>
             </div>
