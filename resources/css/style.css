@@ -575,6 +575,52 @@ body {
 
 /*-------------- banner style end -----------------*/
 
+/*-------------- new banner style begin -----------------*/
+.wrap-banner {
+	background-color: #d9d9d9;
+}
+.banner-block {
+	max-width: 1200px;
+    margin: 0 auto;
+}
+.banner-block-sliders {
+	display: flex;
+	justify-content: space-between;
+}
+.banner-block-sliders-one {
+	width: 48%;
+	margin: 10px;
+}
+.banner-block-sliders-one img {
+	width: 100%;
+}
+.banner-block-sliders-two {
+	width: 48%;
+	margin: 10px;
+}
+.banner-block-sliders-two img {
+	width: 100%;
+}
+.banner-block-title {
+	text-align: center;
+	font-size: 2em;
+}
+.banner-block-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner-block-info-text {
+	width: 45%;
+}
+.banner-block-info-img {
+	width: 45%;
+}
+.banner-block-info-img img {
+	width: 100%;
+}
+/*-------------- new banner style end -----------------*/
+
 /*-------------- nwes style begin -----------------*/
 
 .wrap__news {

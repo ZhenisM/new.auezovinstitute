@@ -1,7 +1,35 @@
 @extends('layouts.app')
 
 @section('content')
-           @include('layouts.banner')
+           <?/*?>@include('layouts.banner')<?*/?>
+    <div class="wrap-banner">
+        <div class="banner-block">
+            <div class="banner-block-sliders">
+                <div class="banner-block-sliders-one">
+                    <img src="../../images/banner/banner.png">
+                </div>
+                <div class="banner-block-sliders-two">
+                    <img src="../../images/banner/banner2.png">
+                </div>
+            </div>
+            <div class="banner-block-title">
+                ИНСТИТУТТЫҢ МИССИЯСЫ ЖӘНЕ БАСЫМ БАҒЫТТАРЫ
+            </div>
+            <div class="banner-block-info">
+                <div class="banner-block-info-text">
+                    Институттың миссиясы – әдебиеттану және
+                    өнертану саласындағы ғылыми-зерттеу және
+                    инновациялық жобаларды жүзеге асыру және
+                    зияткерлік элитаны даярлау арқылы қоғамның
+                    рухани құндылықтарын жетілдіру және тұрақты
+                    дамуына үлес қосу болып табылады.
+                </div>
+                <div class="banner-block-info-img">
+                    <img src="../../images/banner/banner-info.png">
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="wrap__news">
         <div class="nwes">
             <div class="nwes__state">
