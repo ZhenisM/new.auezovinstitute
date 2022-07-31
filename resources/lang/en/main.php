@@ -21,6 +21,8 @@ return [
     'about_institute' => 'About Institute',
     'education' => 'Education',
     'books_institute' => 'Books of Intitute',
+    // 'altyn-kor' => '«GOLDEN FUND» electronic resources',
+    'altyn-kor' => 'GOLDEN FUND',
     'all_books' => 'All Books',
     'contacts' => 'Contact Us',
     'write_to_us' => 'Write to Us',

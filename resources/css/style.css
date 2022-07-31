@@ -999,6 +999,126 @@ body {
 }
 /*-------------- nwes style end -----------------*/
 
+/*-------------- altyn kor style begin -----------------*/
+
+.wrap-altyn-kor {
+	margin: 0 auto;
+	width: 100%;
+    padding: 20px 0;
+}
+.altyn-kor {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.altyn-kor p {
+	margin-bottom: 0;
+}
+
+.altyn-kor-haed {
+    display: flex;
+    justify-content: space-between;
+}
+
+.altyn-kor-haed .line {
+    max-width: 100%;
+    height: 0;
+    border: solid 1px #ccc;
+    margin: 0 0 0 20px;
+}
+
+.altyn-kor-haed .line hr {
+    width: 100%;
+}
+
+.altyn-kor-haed a {
+	text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.altyn-kor-haed a:hover {
+	text-decoration: none;
+}
+.altyn-kor-haed {
+	display: flex;
+	align-items: center;
+}
+
+.altyn-kor-haed a i {
+	color: #9a7955;
+	font-size: 22px;
+}
+
+.altyn-kor-haed a p {
+	font-size: 24px;
+    color: #05435c;
+    white-space: nowrap;
+}
+.altyn-kor-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.altyn-kor-info-item {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+.altyn-kor-info-item-img {}
+.altyn-kor-info-item-img img {}
+.altyn-kor-info-item-title {
+	font-size: 1.6em;
+    font-weight: 600;
+}
+.altyn-kor-info-item-text {}
+
+.altyn-kor-content {
+	background-image: url(../../public/images/main/fon-backg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.altyn-kor-content-info-wrap {
+	display: flex;
+	justify-content: flex-end;
+}
+.altyn-kor-content-info {
+	max-width: 600px;
+	margin: 40px;
+	color: #fff;
+}
+.altyn-kor-content-info-title {
+	font-size: 2em;
+    font-weight: 600;
+}
+.altyn-kor-content-info-text {
+	font-size: 16px;
+}
+
+.altyn-kor-content-news {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.altyn-kor-content-news-item {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+.altyn-kor-content-news-item-img {
+	width: 100%;
+}
+.altyn-kor-content-news-item-img img {
+	width: 100%;
+}
+.altyn-kor-content-news-item-title {
+	font-size: 1.6em;
+    font-weight: 600;
+}
+.altyn-kor-content-news-item-text {}
+/*-------------- altyn kor style end -----------------*/
+
 /*-------------- training style begin -----------------*/
 
 .wrap-education {

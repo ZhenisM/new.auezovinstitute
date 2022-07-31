@@ -110,6 +110,68 @@
             </div>
         </div>
     </div>
+    <div class="wrap-altyn-kor">
+        <div class="altyn-kor">
+            <div class="altyn-kor-haed">
+                <a href="https://mediakit.kz"><i class="fas fa-book-open"></i><p>&nbsp;&nbsp;{{ trans('main.altyn-kor') }}</p></a>
+                <div class="line"></div>
+            </div>
+            <div class="altyn-kor-info">
+                <div class="altyn-kor-info-item">
+                    <div class="altyn-kor-info-item-img">
+                        <img src="../../images/main/kniga_icon.png">
+                    </div>
+                    <div class="altyn-kor-info-item-title">{{ trans('altyn-kor.book_title') }}</div>
+                    <div class="altyn-kor-info-item-text">{{ trans('altyn-kor.book_text') }}</div>
+                </div>
+                <div class="altyn-kor-info-item">
+                    <div class="altyn-kor-info-item-img">
+                        <img src="../../images/main/pero.png">
+                    </div>
+                    <div class="altyn-kor-info-item-title">{{ trans('altyn-kor.pero_title') }}</div>
+                    <div class="altyn-kor-info-item-text">{{ trans('altyn-kor.pero_text') }}</div>
+                </div>
+                <div class="altyn-kor-info-item">
+                    <div class="altyn-kor-info-item-img">
+                        <img src="../../images/main/video.png">
+                    </div>
+                    <div class="altyn-kor-info-item-title">{{ trans('altyn-kor.video_title') }}</div>
+                    <div class="altyn-kor-info-item-text">{{ trans('altyn-kor.video_text') }}</div>
+                </div>
+            </div>
+            <div class="altyn-kor-content">
+                <div class="altyn-kor-content-info-wrap">
+                    <div class="altyn-kor-content-info">
+                        <div class="altyn-kor-content-info-title">{{ trans('altyn-kor.title') }}</div>
+                        <div class="altyn-kor-content-info-text">{{ trans('altyn-kor.text') }}</div>
+                    </div>
+                </div>
+                <div class="altyn-kor-content-news">
+                    <div class="altyn-kor-content-news-item">
+                        <div class="altyn-kor-content-news-item-img">
+                            <img src="../../images/main/altunkor.png">
+                        </div>
+                        <div class="altyn-kor-content-news-item-title">{{ trans('altyn-kor.news_1_title') }}</div>
+                        <div class="altyn-kor-content-news-item-text">{{ trans('altyn-kor.news_1_text') }}</div>
+                    </div>
+                    <div class="altyn-kor-content-news-item">
+                        <div class="altyn-kor-content-news-item-img">
+                            <img src="../../images/main/q3a.jpg">
+                        </div>
+                        <div class="altyn-kor-content-news-item-title">{{ trans('altyn-kor.news_2_title') }}</div>
+                        <div class="altyn-kor-content-news-item-text">{{ trans('altyn-kor.news_2_text') }}</div>
+                    </div>
+                    <div class="altyn-kor-content-news-item">
+                        <div class="altyn-kor-content-news-item-img">
+                            <img src="../../images/main/eski.png">
+                        </div>
+                        <div class="altyn-kor-content-news-item-title">{{ trans('altyn-kor.news_3_title') }}</div>
+                        <div class="altyn-kor-content-news-item-text">{{ trans('altyn-kor.news_3_text') }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="wrap-education">
         <div class="education">
             <div class="education__haed">

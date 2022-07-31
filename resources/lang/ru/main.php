@@ -22,6 +22,8 @@ return [
     'about_institute' => 'Об институте',
     'education' => 'Образование',
     'books_institute' => 'Книги института',
+    // 'altyn-kor' => '«ЗОЛОТОЙ ФОНД» электронные ресурсы',
+    'altyn-kor' => 'ЗОЛОТОЙ ФОНД',
     'all_books' => 'Все книги',
     'contacts' => 'Контакты',
     'write_to_us' => 'Написать нам',
