@@ -6,10 +6,21 @@
         <div class="banner-block">
             <div class="banner-block-sliders">
                 <div class="banner-block-sliders-one">
-                    <img src="../../images/banner/banner.png">
+                    <div class="kai_banner_container clearfix hidden-xs">
+                        <div class="kai_banner_body clearfix">
+                            @foreach ($banners as $banner)
+                                <a style="pointer-events: none;"><img src="{{ $banner ? asset('uploads/' . $banner->image_show) : ""}}"></a>
+                            @endforeach
+                        </div>
+                    </div>
                 </div>
                 <div class="banner-block-sliders-two">
-                    <img src="../../images/banner/banner2.png">
+                    <div class="kai_banner_container clearfix hidden-xs">
+                        <div class="kai_banner_body clearfix">
+                            <a style="pointer-events: none;"><img src="../../images/banner/banner.png"></a>
+                            <a style="pointer-events: none;"><img src="../../images/banner/banner2.png"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="banner-block-title">
@@ -260,6 +271,11 @@
             margin-top: -52px;
         }
     </style>
-
+<script type="text/javascript">
+$('.kai_banner_container').kaiBanner({
+    intervalTime:5000,
+    highlightClass:'highlight'
+});
+</script>
 @endsection
 

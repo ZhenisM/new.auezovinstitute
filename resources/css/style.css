@@ -590,6 +590,8 @@ body {
 .banner-block-sliders-one {
 	width: 48%;
 	margin: 10px;
+	height: 200px;
+    overflow: hidden;
 }
 .banner-block-sliders-one img {
 	width: 100%;
@@ -597,6 +599,8 @@ body {
 .banner-block-sliders-two {
 	width: 48%;
 	margin: 10px;
+	height: 200px;
+    overflow: hidden;
 }
 .banner-block-sliders-two img {
 	width: 100%;
