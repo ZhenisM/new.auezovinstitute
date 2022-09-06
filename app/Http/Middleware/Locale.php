@@ -16,7 +16,7 @@ class Locale {
      */
     public function handle($request, Closure $next)
     {
-        App::setLocale(env('APP_LOCALE'));
+        App::setLocale(env('APP_LOCALE', 'kk'));
         return $next($request);
     }
 
